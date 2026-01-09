@@ -3,14 +3,6 @@ name: AU Deals Bot (All Stores) - Scheduled
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron uses UTC.
-    # Target: Sydney local time windows (approx):
-    # - Morning 08:15
-    # - Noon    12:30
-    # - Evening 19:45
-    #
-    # These UTC times match AEDT most of the year; DST may shift by 1 hour.
-    # We use a "Sydney time guard" step to avoid posting outside desired windows.
     - cron: "15 21 * * *"
     - cron: "30 1 * * *"
     - cron: "45 8 * * *"
@@ -35,7 +27,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
 
       - name: Install dependencies
         run: npm install
@@ -51,12 +42,7 @@ jobs:
           SYDNEY_MIN=$(TZ=Australia/Sydney date +%M)
           echo "Sydney time: ${SYDNEY_HOUR}:${SYDNEY_MIN}"
 
-          # Allowed windows:
-          # 08:00-09:20
-          # 12:00-13:45
-          # 19:00-21:00
           ALLOW="false"
-
           if [ "$SYDNEY_HOUR" -eq 8 ]; then ALLOW="true"; fi
           if [ "$SYDNEY_HOUR" -eq 9 ] && [ "$SYDNEY_MIN" -le 20 ]; then ALLOW="true"; fi
 
@@ -64,7 +50,6 @@ jobs:
           if [ "$SYDNEY_HOUR" -eq 13 ] && [ "$SYDNEY_MIN" -le 45 ]; then ALLOW="true"; fi
 
           if [ "$SYDNEY_HOUR" -ge 19 ] && [ "$SYDNEY_HOUR" -le 21 ]; then ALLOW="true"; fi
-
           echo "allow=$ALLOW" >> $GITHUB_OUTPUT
 
       - name: Run all stores (post deals)
@@ -75,17 +60,14 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
 
-          # Optional affiliate deeplink bases (only if you have them)
           DEEPLINK_BASE_COLES: ${{ secrets.DEEPLINK_BASE_COLES }}
           DEEPLINK_BASE_WOOLWORTHS: ${{ secrets.DEEPLINK_BASE_WOOLWORTHS }}
           DEEPLINK_BASE_BIGW: ${{ secrets.DEEPLINK_BASE_BIGW }}
           DEEPLINK_BASE_CHEMISTWAREHOUSE: ${{ secrets.DEEPLINK_BASE_CHEMISTWAREHOUSE }}
           DEEPLINK_BASE_JBHIFI: ${{ secrets.DEEPLINK_BASE_JBHIFI }}
 
-          # Per-run posting target: 5 posts (=> 15/day with 3 schedules)
           MAX_POSTS_TOTAL: 5
           MAX_POSTS_PER_STORE: 2
-
           DAYS_TTL: 7
           RATE_LIMIT_MS: 4500
 
@@ -94,18 +76,14 @@ jobs:
         run: |
           echo "Skipping posting: outside Sydney posting windows."
 
-
       - name: Commit updated posted.json
         if: steps.guard.outputs.allow == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Make sure we're up-to-date before committing
           git fetch origin main
           git pull --rebase origin main || true
-
           git add data/posted.json
           git commit -m "Update posted state" || echo "No changes to commit"
           git push
