@@ -11,7 +11,8 @@
     "run:coles": "node src/run_coles.js",
     "run:bigw": "node src/run_bigw.js",
     "run:chemistwarehouse": "node src/run_chemistwarehouse.js",
-    "run:jbhifi": "node src/run_jbhifi.js"
+    "run:jbhifi": "node src/run_jbhifi.js",
+    "setup:menu": "node src/run_setup_menu.js"
   },
   "dependencies": {
     "playwright": "^1.52.0"

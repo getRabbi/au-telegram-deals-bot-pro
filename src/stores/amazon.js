@@ -1,8 +1,18 @@
 import { withBrowser } from "../browser.js";
-import { normalizeSpace, normalizePriceText, calcDiscountPct, stripQuery } from "../utils.js";
+import {
+  normalizeSpace,
+  normalizePriceText,
+  calcDiscountPct,
+  stripQuery,
+  priceToNumber
+} from "../utils.js";
 
 /**
  * Amazon AU: discover from Goldbox then enrich each product page.
+ * High-value filter added:
+ * - Min price >= 80 AUD
+ * - (discount >= 20%) OR (price drop >= 40 AUD)
+ * - blocks common low-value/junk keywords
  */
 export async function fetchAmazon({ limit = 6 } = {}) {
   const dealsHub = "https://www.amazon.com.au/gp/goldbox";
@@ -37,17 +47,19 @@ export async function fetchAmazon({ limit = 6 } = {}) {
       if (seen.has(clean)) continue;
       seen.add(clean);
       urls.push(clean);
-      if (urls.length >= 60) break;
+      if (urls.length >= 80) break;
     }
 
+    // We will fetch more than limit, then filter down to high-value
     const deals = [];
+
     for (const url of urls) {
-      if (deals.length >= limit) break;
+      if (deals.length >= limit * 4) break; // buffer for filtering
 
       const info = await enrichAmazon(page, url);
       if (!info.title || !info.imageUrl || !info.now) continue;
 
-      deals.push({
+      const item = {
         store: "Amazon AU",
         storeTag: "AMAZONAU",
         id: info.asin || url,
@@ -58,12 +70,15 @@ export async function fetchAmazon({ limit = 6 } = {}) {
         discountPct: info.discountPct,
         imageUrl: info.imageUrl,
         url
-      });
+      };
 
+      if (!isHighValueAmazonDeal(item)) continue;
+
+      deals.push(item);
       await page.waitForTimeout(700);
     }
 
-    return deals;
+    return deals.slice(0, limit);
   });
 }
 
@@ -113,9 +128,10 @@ async function enrichAmazon(page, productUrl) {
     const was = normalizePriceText(data.was);
     const discountPct = calcDiscountPct(now, was);
 
-    const img = (data.img || "").includes(".svg") || (data.img || "").startsWith("data:")
-      ? ""
-      : data.img;
+    const img =
+      (data.img || "").includes(".svg") || (data.img || "").startsWith("data:")
+        ? ""
+        : data.img;
 
     return {
       asin: data.asin || "",
@@ -128,6 +144,55 @@ async function enrichAmazon(page, productUrl) {
   } catch {
     return { asin: "", title: "", now: "", was: "", discountPct: undefined, imageUrl: "" };
   }
+}
+
+/**
+ * High-value filter rules for Amazon AU
+ */
+function isHighValueAmazonDeal(item) {
+  const title = (item.title || "").toLowerCase();
+
+  // Block low-value/junk items via keywords
+  const blockWords = [
+    "case",
+    "cover",
+    "screen protector",
+    "protector",
+    "cable",
+    "charger",
+    "adapter",
+    "hdmi",
+    "usb",
+    "ear tips",
+    "replacement",
+    "refill",
+    "sticker",
+    "book",
+    "kindle edition",
+    "toy",
+    "lego minifigure",
+    "phone case",
+    "tempered glass"
+  ];
+  if (blockWords.some((w) => title.includes(w))) return false;
+
+  // Min current price
+  const nowN = priceToNumber(item.now);
+  if (!nowN || nowN < 80) return false;
+
+  // Discount check
+  const wasN = priceToNumber(item.was);
+  const priceDrop = wasN && wasN > nowN ? wasN - nowN : 0;
+
+  const discountPct =
+    typeof item.discountPct === "number" && Number.isFinite(item.discountPct)
+      ? item.discountPct
+      : 0;
+
+  // Must satisfy either % discount or absolute drop
+  if (discountPct < 20 && priceDrop < 40) return false;
+
+  return true;
 }
 
 function toAbs(href) {
