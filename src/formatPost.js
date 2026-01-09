@@ -34,3 +34,7 @@ export function formatDealCard(deal) {
 
   return lines.join("\n").trim();
 }
+
+export function formatDeal(deal){
+  return formatDealCard(deal);
+}
