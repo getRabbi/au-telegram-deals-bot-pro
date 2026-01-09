@@ -1,0 +1,19 @@
+{
+  "name": "au-telegram-deals-bot-pro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:post": "node src/run_test_post.js",
+    "run:all": "node src/run_all.js",
+    "run:amazon": "node src/run_amazon.js",
+    "run:woolworths": "node src/run_woolworths.js",
+    "run:coles": "node src/run_coles.js",
+    "run:bigw": "node src/run_bigw.js",
+    "run:chemistwarehouse": "node src/run_chemistwarehouse.js",
+    "run:jbhifi": "node src/run_jbhifi.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
