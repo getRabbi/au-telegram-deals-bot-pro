@@ -9,67 +9,102 @@ function apiUrl(method) {
   return `https://api.telegram.org/bot${token}/${method}`;
 }
 
-export async function sendPhotoPost({ imageUrl, caption, buttons }) {
-  const chatId = mustEnv("TELEGRAM_CHAT_ID");
+function safeString(v) {
+  return String(v ?? "");
+}
 
-  const payload = {
-    chat_id: chatId,
-    photo: imageUrl,
-    caption,
-    parse_mode: "HTML",
-    disable_web_page_preview: true,
-    reply_markup: { inline_keyboard: buttons || [] },
-  };
-
-  const res = await fetch(apiUrl("sendPhoto"), {
+async function postJson(method, payload) {
+  const res = await fetch(apiUrl(method), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
   });
 
-  const json = await res.json();
-  if (!json.ok) throw new Error(`Telegram sendPhoto failed: ${JSON.stringify(json)}`);
+  let json;
+  try {
+    json = await res.json();
+  } catch {
+    const text = await res.text().catch(() => "");
+    throw new Error(`Telegram ${method} failed (non-JSON). status=${res.status} body=${text}`);
+  }
+
+  if (!json?.ok) {
+    throw new Error(
+      `Telegram ${method} failed. status=${res.status} response=${safeString(JSON.stringify(json))}`
+    );
+  }
   return json.result;
 }
 
-export async function sendMessage({ text, buttons, disablePreview = true }) {
+/**
+ * Send photo post with inline buttons.
+ */
+export async function sendPhotoPost({
+  imageUrl,
+  caption,
+  buttons,
+  disablePreview = true, // Telegram ignores preview on photo usually, but keep for parity
+  messageThreadId,
+}) {
   const chatId = mustEnv("TELEGRAM_CHAT_ID");
 
   const payload = {
     chat_id: chatId,
-    text,
+    photo: safeString(imageUrl),
+    caption: safeString(caption),
     parse_mode: "HTML",
-    disable_web_page_preview: disablePreview,
+    disable_web_page_preview: Boolean(disablePreview),
     reply_markup: { inline_keyboard: buttons || [] },
   };
 
-  const res = await fetch(apiUrl("sendMessage"), {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
+  if (messageThreadId) payload.message_thread_id = messageThreadId;
 
-  const json = await res.json();
-  if (!json.ok) throw new Error(`Telegram sendMessage failed: ${JSON.stringify(json)}`);
-  return json.result;
+  return postJson("sendPhoto", payload);
 }
 
+/**
+ * Send normal message with inline buttons.
+ */
+export async function sendMessage({
+  text,
+  buttons,
+  disablePreview = true,
+  messageThreadId,
+}) {
+  const chatId = mustEnv("TELEGRAM_CHAT_ID");
+
+  const payload = {
+    chat_id: chatId,
+    text: safeString(text),
+    parse_mode: "HTML",
+    disable_web_page_preview: Boolean(disablePreview),
+    reply_markup: { inline_keyboard: buttons || [] },
+  };
+
+  if (messageThreadId) payload.message_thread_id = messageThreadId;
+
+  return postJson("sendMessage", payload);
+}
+
+/**
+ * Alias: convenient for fallback text posting
+ */
+export async function sendTextPost({ text, disablePreview = false }) {
+  return sendMessage({ text, disablePreview });
+}
+
+/**
+ * Pin a message in the chat/channel.
+ */
 export async function pinMessage({ messageId, disableNotification = true }) {
   const chatId = mustEnv("TELEGRAM_CHAT_ID");
 
   const payload = {
     chat_id: chatId,
     message_id: messageId,
-    disable_notification: disableNotification,
+    disable_notification: Boolean(disableNotification),
   };
 
-  const res = await fetch(apiUrl("pinChatMessage"), {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
-
-  const json = await res.json();
-  if (!json.ok) throw new Error(`Telegram pinChatMessage failed: ${JSON.stringify(json)}`);
+  await postJson("pinChatMessage", payload);
   return true;
 }

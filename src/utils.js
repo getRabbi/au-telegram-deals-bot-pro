@@ -42,11 +42,42 @@ export function calcDiscountPct(now, was) {
 }
 
 export function safeUrl(u) {
-  // Ensure it's a valid absolute URL string
   try {
     const url = new URL(u);
     return url.toString();
   } catch {
     return "";
   }
+}
+
+/**
+ * Fix common pricing mistakes:
+ * - if now/was swapped (now > was), swap them
+ * - if one is missing, keep the other
+ */
+export function sanitizePrices({ now, was }) {
+  const n = priceToNumber(now);
+  const w = priceToNumber(was);
+
+  if (!n && !w) return { now: "", was: "" };
+  if (n && !w) return { now: normalizePriceText(now), was: "" };
+  if (!n && w) return { now: normalizePriceText(was), was: "" };
+
+  // if now is bigger than was => swapped
+  if (n > w) {
+    return { now: normalizePriceText(was), was: normalizePriceText(now) };
+  }
+
+  return { now: normalizePriceText(now), was: normalizePriceText(was) };
+}
+
+/**
+ * Score deal for ranking:
+ * - discountPct matters most
+ * - higher price gives slight boost for "high ticket preference"
+ */
+export function scoreDeal(d) {
+  const pct = Number.isFinite(d.discountPct) ? d.discountPct : 0;
+  const now = priceToNumber(d.now);
+  return pct * 10 + Math.min(now, 2000) / 100;
 }

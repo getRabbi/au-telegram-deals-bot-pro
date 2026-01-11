@@ -1,9 +1,9 @@
 import path from "node:path";
 import { loadState, saveState, pruneOld, hasPosted, rememberPosted } from "./state.js";
-import { sendPhotoPost } from "./telegram.js";
+import { sendPhotoPost, sendTextPost } from "./telegram.js";
 import { formatDealCard } from "./formatPost.js";
 import { affiliateUrl } from "./affiliate.js";
-import { sleep } from "./utils.js";
+import { sleep, sanitizePrices, calcDiscountPct, scoreDeal } from "./utils.js";
 
 import { fetchAmazon } from "./stores/amazon.js";
 import { fetchWoolworths } from "./stores/woolworths.js";
@@ -14,8 +14,16 @@ import { fetchJBHiFi } from "./stores/jbhifi.js";
 
 const MAX_TOTAL = Number(process.env.MAX_POSTS_TOTAL || 12);
 const MAX_PER_STORE = Number(process.env.MAX_POSTS_PER_STORE || 4);
-const DAYS_TTL = Number(process.env.DAYS_TTL || 7);
+const DAYS_TTL = Number(process.env.DAYS_TTL || 3);
 const RATE_LIMIT_MS = Number(process.env.RATE_LIMIT_MS || 4500);
+
+// strict filter (high value + good discount) then fallback
+const MIN_DAILY = Number(process.env.MIN_POSTS_DAILY || 8);
+const FALLBACK_MODE = String(process.env.FALLBACK_MODE || "1") === "1";
+
+// strict knobs (tune-able)
+const STRICT_MIN_DISCOUNT = Number(process.env.STRICT_MIN_DISCOUNT || 20); // 20%
+const STRICT_MIN_PRICE = Number(process.env.STRICT_MIN_PRICE || 150);      // $150+
 
 const POSTED_PATH = path.join(process.cwd(), "data", "posted.json");
 
@@ -31,41 +39,72 @@ const storeFetchers = [
   { tag: "JBHIFI", name: "JB Hi-Fi", hashtag: "#JBHiFi", fn: fetchJBHiFi }
 ];
 
-// Fetch in sequence to avoid heavy parallel load on Actions runners
+// Fetch in sequence
 const all = [];
 for (const s of storeFetchers) {
   try {
-    const deals = await s.fn({ limit: Math.max(10, MAX_PER_STORE * 2) });
+    const deals = await s.fn({ limit: Math.max(12, MAX_PER_STORE * 5) });
+
     for (const d of deals) {
-      all.push({ ...d, storeTag: s.tag, _hashtag: s.hashtag });
+      // sanitize prices to fix "now > was" bug
+      const cleaned = sanitizePrices({ now: d.now, was: d.was });
+      const discountPct = calcDiscountPct(cleaned.now, cleaned.was);
+
+      all.push({
+        ...d,
+        storeTag: s.tag,
+        store: d.store || s.name,
+        _hashtag: s.hashtag,
+        now: cleaned.now,
+        was: cleaned.was,
+        discountPct: discountPct ?? d.discountPct
+      });
     }
+
     console.log(`Fetched ${s.tag}: ${deals.length}`);
   } catch (e) {
     console.log(`⚠️ Fetch failed ${s.tag}: ${String(e)}`);
   }
 }
 
-// Filter: must have now price, and not duplicate
-const filtered = all.filter(d => d.now && !hasPosted(state, d));
+// must have title + url + now and not duplicate
+const baseFiltered = all.filter(d =>
+  d.title && d.url && d.now && !hasPosted(state, d)
+);
 
-// Rank: higher discount first; if missing discount, push down.
-filtered.sort((a, b) => {
-  const da = Number.isFinite(a.discountPct) ? a.discountPct : -1;
-  const db = Number.isFinite(b.discountPct) ? b.discountPct : -1;
-  if (db !== da) return db - da;
-  return (b.now || "").length - (a.now || "").length;
-});
+// strict filter (preference)
+function strictFilter(d) {
+  const pct = Number(d.discountPct || 0);
+  const nowNum = Number(String(d.now).replace(/[^\d.]/g, "")) || 0;
+  return pct >= STRICT_MIN_DISCOUNT && nowNum >= STRICT_MIN_PRICE;
+}
 
-// Enforce per-store caps
-const perStoreCount = new Map();
-const selected = [];
-for (const d of filtered) {
-  if (selected.length >= MAX_TOTAL) break;
-  const k = d.storeTag || "UNKNOWN";
-  const c = perStoreCount.get(k) || 0;
-  if (c >= MAX_PER_STORE) continue;
-  perStoreCount.set(k, c + 1);
-  selected.push(d);
+function pickDeals(deals) {
+  // rank high discount first + score
+  const sorted = [...deals].sort((a, b) => scoreDeal(b) - scoreDeal(a));
+
+  const perStoreCount = new Map();
+  const out = [];
+
+  for (const d of sorted) {
+    if (out.length >= MAX_TOTAL) break;
+
+    const k = d.storeTag || "UNKNOWN";
+    const c = perStoreCount.get(k) || 0;
+    if (c >= MAX_PER_STORE) continue;
+
+    perStoreCount.set(k, c + 1);
+    out.push(d);
+  }
+  return out;
+}
+
+// 1) strict selection
+let selected = pickDeals(baseFiltered.filter(strictFilter));
+
+// 2) fallback if not enough
+if (FALLBACK_MODE && selected.length < MIN_DAILY) {
+  selected = pickDeals(baseFiltered);
 }
 
 console.log(`Selected to post: ${selected.length}`);
@@ -87,14 +126,24 @@ for (let i = 0; i < selected.length; i++) {
     hashtags: [rankTag, d._hashtag || "", "#Today", "#AustraliaDeals"].filter(Boolean)
   });
 
-  await sendPhotoPost({
-    imageUrl: d.imageUrl,
-    caption,
-    buttons: [
-      [{ text: "👉 Get Deal", url }],
-      [{ text: "📌 Browse More", url: browseMoreUrl(d.storeTag || "") }]
-    ]
-  });
+  // Post strategy:
+  // - Try photo post
+  // - If photo fails (bad URL / blocked), fall back to text message so daily posting never stops
+  try {
+    await sendPhotoPost({
+      imageUrl: d.imageUrl,
+      caption,
+      buttons: [
+        [{ text: "👉 Get Deal", url }],
+        [{ text: "📌 Browse More", url: browseMoreUrl(d.storeTag || "") }]
+      ]
+    });
+  } catch (e) {
+    console.log(`⚠️ sendPhoto failed. Falling back to text. Reason: ${String(e)}`);
+    await sendTextPost({
+      text: `${caption}\n\n👉 Get Deal: ${url}\n📌 Browse More: ${browseMoreUrl(d.storeTag || "")}`
+    });
+  }
 
   rememberPosted(state, d);
   posted++;
