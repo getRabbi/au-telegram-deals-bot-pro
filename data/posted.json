@@ -127,6 +127,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-pixel-10-pro-5g-128gb-moonstone|$200",
       "ts": 1768467904459
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-omnibook-5-ng-ai-pc-16-fb0006qu-16-wuxga-oled-laptop-snapdragon-x1512gb|$500",
+      "ts": 1768513062177
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fd0739tu-15-6-fhd-laptop-intel-core-i5512gb-16gb|$500",
+      "ts": 1768513067844
     }
   ]
 }
