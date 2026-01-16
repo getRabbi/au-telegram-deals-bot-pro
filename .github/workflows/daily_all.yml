@@ -1,114 +1,13 @@
-# name: AU Deals Bot (All Stores) - Scheduled
-
-# on:
-#   workflow_dispatch:
-#   schedule:
-#     - cron: "15 21 * * *"
-#     - cron: "30 1 * * *"
-#     - cron: "45 8 * * *"
-
-# concurrency:
-#   group: au-deals-bot
-#   cancel-in-progress: false
-
-# permissions:
-#   contents: write
-
-# jobs:
-#   run:
-#     runs-on: ubuntu-latest
-#     timeout-minutes: 25
-
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v4
-
-#       - name: Setup Node
-#         uses: actions/setup-node@v4
-#         with:
-#           node-version: 20
-
-#       - name: Install dependencies
-#         run: npm install
-
-#       - name: Install Playwright Chromium
-#         run: npx playwright install --with-deps chromium
-
-#       - name: Sydney time guard (only post in desired windows)
-#         id: guard
-#         shell: bash
-#         run: |
-#           SYDNEY_HOUR=$(TZ=Australia/Sydney date +%H)
-#           SYDNEY_MIN=$(TZ=Australia/Sydney date +%M)
-#           echo "Sydney time: ${SYDNEY_HOUR}:${SYDNEY_MIN}"
-
-#           ALLOW="false"
-#           if [ "$SYDNEY_HOUR" -eq 8 ]; then ALLOW="true"; fi
-#           if [ "$SYDNEY_HOUR" -eq 9 ] && [ "$SYDNEY_MIN" -le 20 ]; then ALLOW="true"; fi
-
-#           if [ "$SYDNEY_HOUR" -eq 12 ]; then ALLOW="true"; fi
-#           if [ "$SYDNEY_HOUR" -eq 13 ] && [ "$SYDNEY_MIN" -le 45 ]; then ALLOW="true"; fi
-
-#           if [ "$SYDNEY_HOUR" -ge 19 ] && [ "$SYDNEY_HOUR" -le 21 ]; then ALLOW="true"; fi
-#           echo "allow=$ALLOW" >> $GITHUB_OUTPUT
-
-#       - name: Run all stores (post deals)
-#         if: steps.guard.outputs.allow == 'true'
-#         run: npm run run:all
-#         env:
-#           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-#           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-#           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
-
-#           DEEPLINK_BASE_COLES: ${{ secrets.DEEPLINK_BASE_COLES }}
-#           DEEPLINK_BASE_WOOLWORTHS: ${{ secrets.DEEPLINK_BASE_WOOLWORTHS }}
-#           DEEPLINK_BASE_BIGW: ${{ secrets.DEEPLINK_BASE_BIGW }}
-#           DEEPLINK_BASE_CHEMISTWAREHOUSE: ${{ secrets.DEEPLINK_BASE_CHEMISTWAREHOUSE }}
-#           DEEPLINK_BASE_JBHIFI: ${{ secrets.DEEPLINK_BASE_JBHIFI }}
-
-#           MAX_POSTS_TOTAL: 5
-#           MAX_POSTS_PER_STORE: 2
-#           DAYS_TTL: 7
-#           RATE_LIMIT_MS: 4500
-
-#       - name: Skip notice (outside posting window)
-#         if: steps.guard.outputs.allow != 'true'
-#         run: |
-#           echo "Skipping posting: outside Sydney posting windows."
-
-#       - name: Commit updated posted.json
-#         if: steps.guard.outputs.allow == 'true'
-#         shell: bash
-#         run: |
-#           git config user.name "github-actions[bot]"
-#           git config user.email "github-actions[bot]@users.noreply.github.com"
-#           git fetch origin main
-#           git pull --rebase origin main || true
-#           git add data/posted.json
-#           git commit -m "Update posted state" || echo "No changes to commit"
-#           git push
-
 name: AU Deals Bot (All Stores) - Scheduled
 
 on:
   workflow_dispatch:
   schedule:
-    # Morning burst (Sydney)
-    - cron: "0 22 * * *"   # 08:00
-    - cron: "20 22 * * *"
-    - cron: "40 22 * * *"
-    - cron: "0 23 * * *"
-    - cron: "20 23 * * *"
-
-    # Day drip
-    - cron: "30 2 * * *"
-    - cron: "30 4 * * *"
-    - cron: "30 6 * * *"
-
-    # Evening
-    - cron: "30 9 * * *"
-    - cron: "0 10 * * *"
-    - cron: "30 10 * * *"
+    # 3 runs/day (UTC). Keep simple + stable.
+    # You can add more later if you want.
+    - cron: "15 21 * * *"
+    - cron: "30 1 * * *"
+    - cron: "45 8 * * *"
 
 concurrency:
   group: au-deals-bot
@@ -123,32 +22,52 @@ jobs:
     timeout-minutes: 25
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: npm install
-      - run: npx playwright install --with-deps chromium
+      - name: Install dependencies
+        run: npm install
 
-      - name: Run Deals Bot
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run all stores (post deals)
         run: npm run run:all
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
 
-          MAX_POSTS_TOTAL: 12
+          # Optional affiliate deeplink bases (ok if empty)
+          DEEPLINK_BASE_COLES: ${{ secrets.DEEPLINK_BASE_COLES }}
+          DEEPLINK_BASE_WOOLWORTHS: ${{ secrets.DEEPLINK_BASE_WOOLWORTHS }}
+          DEEPLINK_BASE_BIGW: ${{ secrets.DEEPLINK_BASE_BIGW }}
+          DEEPLINK_BASE_CHEMISTWAREHOUSE: ${{ secrets.DEEPLINK_BASE_CHEMISTWAREHOUSE }}
+          DEEPLINK_BASE_JBHIFI: ${{ secrets.DEEPLINK_BASE_JBHIFI }}
+
+          # Posting knobs
+          MAX_POSTS_TOTAL: 15
+          MAX_POSTS_PER_STORE: 4
           MIN_POSTS_DAILY: 10
-          MAX_POSTS_PER_STORE: 3
-          DAYS_TTL: 3
+          DAYS_TTL: 7
           RATE_LIMIT_MS: 4500
 
-      - name: Commit posted state
+          # Strict preference (high ticket + good discount); fallback will fill anyway
+          STRICT_MIN_DISCOUNT: 20
+          STRICT_MIN_PRICE: 120
+          FALLBACK_MODE: 1
+
+      - name: Commit updated posted.json
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add data/posted.json
-          git commit -m "Update posted state" || echo "No changes"
+          git commit -m "Update posted state" || echo "No changes to commit"
           git push
