@@ -13,16 +13,7 @@ function safeString(v) {
   return String(v ?? "");
 }
 
-function stripImageQuery(u) {
-  try {
-    const url = new URL(u);
-    // removing resize params often upgrades to original
-    url.search = "";
-    return url.toString();
-  } catch {
-    return safeString(u);
-  }
-}
+import { ensureHighResImageUrl, isLowResImageUrl } from "./utils.js";
 
 async function fetchImageBytes(url) {
   const res = await fetch(url, { redirect: "follow" });
@@ -88,12 +79,13 @@ export async function sendPhotoPost({
 }) {
   const chatId = mustEnv("TELEGRAM_CHAT_ID");
 
-  const upgraded = stripImageQuery(safeString(imageUrl));
+  // Upgrade thumbnails (e.g., Shopify 32x32) to a large size to avoid blur.
+  const upgraded = ensureHighResImageUrl(safeString(imageUrl), 1200);
   const { buf } = await fetchImageBytes(upgraded);
 
-  // If file is tiny, it's usually a thumbnail => blur. Let caller fallback to text.
-  // 35KB is a practical threshold.
-  if (!buf || buf.length < 35 * 1024) {
+  // If URL looks low-res OR file is tiny, it's usually a thumbnail => blur.
+  // Let caller fallback to text.
+  if (isLowResImageUrl(upgraded) || !buf || buf.length < 35 * 1024) {
     throw new Error(`Low-res image (too small). size=${buf?.length || 0} url=${upgraded}`);
   }
 

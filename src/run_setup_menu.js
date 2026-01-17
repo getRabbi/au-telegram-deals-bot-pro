@@ -1,10 +1,10 @@
 import { sendMessage, pinMessage } from "./telegram.js";
 
 function channelUsername() {
-  // TELEGRAM_CHAT_ID যদি @YourChannel হয়, তাহলে username পাওয়া যাবে
+  // If TELEGRAM_CHAT_ID is @YourChannel, we can build Telegram "?q=#hashtag" links.
   const chat = process.env.TELEGRAM_CHAT_ID || "";
   if (chat.startsWith("@")) return chat.slice(1);
-  // না হলে user কে secret এ @channel দিতে হবে
+  // If it's a numeric chat id, we can't build "?q=..." links.
   return "";
 }
 
@@ -15,15 +15,15 @@ function qLink(username, hashtag) {
 
 const username = channelUsername();
 if (!username) {
-  throw new Error("TELEGRAM_CHAT_ID অবশ্যই @YourChannel ফরম্যাটে দিতে হবে (MENU search link এর জন্য)");
+  throw new Error("TELEGRAM_CHAT_ID must be in @YourChannel format to enable MENU hashtag search links.");
 }
 
 const menuText =
   `📌 <b>DEALS MENU</b>\n` +
-  `এখান থেকে Top Deals / Store-wise deals দেখো 👇\n\n` +
-  `🔥 <b>Top Deals</b> = শুধু সবচেয়ে ভালো অফার (#TopDeals)\n` +
-  `🛒 <b>All Deals</b> = সব পোস্ট\n\n` +
-  `✅ <b>Tip:</b> TopDeals এ ক্লিক করলে শুধু best deal গুলাই দেখাবে।`;
+  `Browse Top Deals and store-wise deals 👇\n\n` +
+  `🔥 <b>Top Deals Only</b>: best offers (#TopDeals)\n` +
+  `🛒 <b>All Posts</b>: full channel feed\n\n` +
+  `Tip: Use store buttons to jump to posts tagged for that store.`;
 
 const buttons = [
   [{ text: "🔥 Top Deals Only", url: qLink(username, "TopDeals") }],
@@ -37,6 +37,12 @@ const buttons = [
 
   [{ text: "🏠 BIG W", url: qLink(username, "BigW") },
    { text: "🧴 Chemist", url: qLink(username, "ChemistWarehouse") }],
+
+  // External quick links (official deal pages)
+  [{ text: "Amazon Deals Page", url: "https://www.amazon.com.au/gp/goldbox" }],
+  [{ text: "Woolworths Specials", url: "https://www.woolworths.com.au/shop/browse/specials" }],
+  [{ text: "Coles Offers", url: "https://www.coles.com.au/offers" }],
+  [{ text: "JB Hi-Fi Deals", url: "https://www.jbhifi.com.au/collections/this-weeks-hottest-deals" }],
 ];
 
 const msg = await sendMessage({ text: menuText, buttons });

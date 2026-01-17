@@ -9,10 +9,8 @@ import {
 
 /**
  * Amazon AU: discover from Goldbox then enrich each product page.
- * High-value filter added:
- * - Min price >= 80 AUD
- * - (discount >= 20%) OR (price drop >= 40 AUD)
- * - blocks common low-value/junk keywords
+ * Note: we keep the store scraper permissive (so it still returns deals daily),
+ * and do "high ticket / high discount" preference later in run_all.js.
  */
 export async function fetchAmazon({ limit = 6 } = {}) {
   const dealsHub = "https://www.amazon.com.au/gp/goldbox";
@@ -50,7 +48,6 @@ export async function fetchAmazon({ limit = 6 } = {}) {
       if (urls.length >= 80) break;
     }
 
-    // We will fetch more than limit, then filter down to high-value
     const deals = [];
 
     for (const url of urls) {
@@ -72,13 +69,13 @@ export async function fetchAmazon({ limit = 6 } = {}) {
         url
       };
 
-      if (!isHighValueAmazonDeal(item)) continue;
-
       deals.push(item);
       await page.waitForTimeout(700);
     }
 
-    return deals.slice(0, limit);
+    // Basic sanity filter only
+    const cleaned = deals.filter((d) => isReasonableAmazonDeal(d));
+    return cleaned.slice(0, limit);
   });
 }
 
@@ -149,7 +146,7 @@ async function enrichAmazon(page, productUrl) {
 /**
  * High-value filter rules for Amazon AU
  */
-function isHighValueAmazonDeal(item) {
+function isReasonableAmazonDeal(item) {
   const title = (item.title || "").toLowerCase();
 
   // Block low-value/junk items via keywords
@@ -176,21 +173,9 @@ function isHighValueAmazonDeal(item) {
   ];
   if (blockWords.some((w) => title.includes(w))) return false;
 
-  // Min current price
+  // Min current price (avoid $2 junk)
   const nowN = priceToNumber(item.now);
-  if (!nowN || nowN < 80) return false;
-
-  // Discount check
-  const wasN = priceToNumber(item.was);
-  const priceDrop = wasN && wasN > nowN ? wasN - nowN : 0;
-
-  const discountPct =
-    typeof item.discountPct === "number" && Number.isFinite(item.discountPct)
-      ? item.discountPct
-      : 0;
-
-  // Must satisfy either % discount or absolute drop
-  if (discountPct < 20 && priceDrop < 40) return false;
+  if (!nowN || nowN < 40) return false;
 
   return true;
 }

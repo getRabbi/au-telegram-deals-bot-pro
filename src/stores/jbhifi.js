@@ -1,5 +1,5 @@
 import { withBrowser } from "../browser.js";
-import { normalizeSpace, normalizePriceText, calcDiscountPct, stripQuery } from "../utils.js";
+import { normalizeSpace, normalizePriceText, calcDiscountPct, stripQuery, ensureHighResImageUrl } from "../utils.js";
 
 /**
  * JB Hi-Fi weekly deals:
@@ -35,7 +35,11 @@ export async function fetchJBHiFi({ limit = 6 } = {}) {
         const container = a.closest("article") || a.closest("div") || a;
         const txt = container?.textContent || "";
 
-        out.push({ link, title, imgSrc, txt });
+        // Extract handle for Shopify JSON enrichment
+        const m = link.match(/\/products\/([^/?#]+)/);
+        const handle = m ? m[1] : "";
+
+        out.push({ link, handle, title, imgSrc, txt });
         if (out.length >= 150) break;
       }
       return out;
@@ -54,14 +58,21 @@ export async function fetchJBHiFi({ limit = 6 } = {}) {
       const title = normalizeSpace(it.title).slice(0, 140);
       if (!title || title.length < 4) continue;
 
+      // Prefer Shopify JSON (accurate price + compare_at_price + high-res image)
+      const enriched = await enrichShopifyProduct(it.handle);
+
       const prices = String(it.txt || "").match(/\$\s*\d+(?:\.\d{2})?/g) || [];
-      const now = prices[0] ? prices[0].replace(/\s+/g, "") : normalizePriceText(it.txt);
-      const was = prices[1] ? prices[1].replace(/\s+/g, "") : "";
+      const fallbackNow = prices[0] ? prices[0].replace(/\s+/g, "") : normalizePriceText(it.txt);
+      const fallbackWas = prices[1] ? prices[1].replace(/\s+/g, "") : "";
+
+      const now = normalizePriceText(enriched.now || fallbackNow);
+      const was = normalizePriceText(enriched.was || fallbackWas);
       const discountPct = calcDiscountPct(now, was);
 
       if (!now) continue;
 
-      const img = (it.imgSrc || "").includes(".svg") || (it.imgSrc || "").startsWith("data:") ? "" : it.imgSrc;
+      const imgRaw = enriched.imageUrl || it.imgSrc || "";
+      const img = (imgRaw.includes(".svg") || imgRaw.startsWith("data:")) ? "" : ensureHighResImageUrl(imgRaw, 1200);
 
       deals.push({
         store: "JB Hi-Fi",
@@ -71,11 +82,40 @@ export async function fetchJBHiFi({ limit = 6 } = {}) {
         now,
         was,
         discountPct,
-        imageUrl: img || "https://picsum.photos/800/800.jpg",
+        imageUrl: img || "https://picsum.photos/1200/1200.jpg",
         url: link
       });
     }
 
     return deals;
   });
+}
+
+async function enrichShopifyProduct(handle) {
+  try {
+    if (!handle) return { now: "", was: "", imageUrl: "" };
+
+    const url = `https://www.jbhifi.com.au/products/${handle}.js`;
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122 Safari/537.36",
+        "Accept-Language": "en-AU,en;q=0.9",
+      }
+    });
+    if (!res.ok) return { now: "", was: "", imageUrl: "" };
+    const p = await res.json();
+    const v = (p.variants && p.variants[0]) ? p.variants[0] : null;
+
+    // Shopify .js uses cents
+    const centsNow = Number(v?.price || 0);
+    const centsWas = Number(v?.compare_at_price || 0);
+
+    const now = centsNow ? `$${(centsNow / 100).toFixed(2)}` : "";
+    const was = (centsWas && centsWas > centsNow) ? `$${(centsWas / 100).toFixed(2)}` : "";
+
+    const imageUrl = p?.featured_image || (p?.images && p.images[0]) || "";
+    return { now, was, imageUrl };
+  } catch {
+    return { now: "", was: "", imageUrl: "" };
+  }
 }
