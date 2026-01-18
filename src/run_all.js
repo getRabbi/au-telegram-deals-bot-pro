@@ -28,6 +28,11 @@ import { fetchBigW } from "./stores/bigw.js";
 import { fetchChemistWarehouse } from "./stores/chemistwarehouse.js";
 import { fetchJBHiFi } from "./stores/jbhifi.js";
 import { fetchLocalFallback } from "./stores/localFallback.js";
+import { fetchCatch } from "./stores/catch.js";
+import { fetchKogan } from "./stores/kogan.js";
+import { fetchMyDeal } from "./stores/mydeal.js";
+import { fetchOfficeworks } from "./stores/officeworks.js";
+import { fetchOzBargain } from "./stores/ozbargain.js";
 
 // ---------------- config ----------------
 
@@ -209,7 +214,12 @@ const storeFetchers = [
     hashtag: "#ChemistWarehouse",
     fn: fetchChemistWarehouse
   },
-  { tag: "JBHIFI", name: "JB Hi-Fi", hashtag: "#JBHiFi", fn: fetchJBHiFi }
+  { tag: "JBHIFI", name: "JB Hi-Fi", hashtag: "#JBHiFi", fn: fetchJBHiFi },
+  { tag: "CATCH", name: "Catch", hashtag: "#CatchAU", fn: fetchCatch },
+  { tag: "KOGAN", name: "Kogan", hashtag: "#KoganAU", fn: fetchKogan },
+  { tag: "MYDEAL", name: "MyDeal", hashtag: "#MyDealAU", fn: fetchMyDeal },
+  { tag: "OFFICEWORKS", name: "Officeworks", hashtag: "#Officeworks", fn: fetchOfficeworks },
+  { tag: "OZBARGAIN", name: "Local Deals", hashtag: "#Ozbargain", fn: fetchOzBargain }
 ];
 
 // Fetch in sequence (stable on GitHub Actions)
