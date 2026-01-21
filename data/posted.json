@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s25-ultra-256gb-titanium-black|$1697",
-      "ts": 1768340151755
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fd0741tu-15-6-full-hd-laptop-intel-core-i5256gb|$949",
-      "ts": 1768340157802
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-pixel-9a-5g-128gb-obsidian|$150",
       "ts": 1768426677680
     },
@@ -311,6 +303,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/944991|",
       "ts": 1768945152663
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/945040|",
+      "ts": 1768965431848
     }
   ]
 }
