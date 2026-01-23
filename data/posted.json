@@ -1,86 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dreame-l40s-pro-ultra-robot-vacuum-and-mop-with-auto-empty-and-mop-self-cleaning|$1048",
-      "ts": 1768554242130
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ecovacs-deebot-t50-pro-omni-robotic-vac-black|$749",
-      "ts": 1768554247709
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-v8-origin-stick-vacuum|$749",
-      "ts": 1768556017303
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/lenovo-ideapad-slim-3-14-hd-chromebook-laptop-128gb|$269",
-      "ts": 1768556022932
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-15a-nb0009tu-15-6-full-hd-chromebook-laptop-with-gemini-128gbintel-i3|$269",
-      "ts": 1768556028577
-    },
-    {
-      "key": "|https://www.catch.com.au/deals|",
-      "ts": 1768556033808
-    },
-    {
-      "key": "|https://www.kogan.com/au/deals/|",
-      "ts": 1768556038945
-    },
-    {
-      "key": "|https://www.priceline.com.au/offers|",
-      "ts": 1768556044271
-    },
-    {
-      "key": "|https://www.officeworks.com.au/shop/officeworks/specials|",
-      "ts": 1768556049411
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/bose-quietcomfort-ultra-noise-cancelling-headphones-black|$449",
-      "ts": 1768557086710
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-a56-5g-128gb-awesome-graphite|$549",
-      "ts": 1768557092167
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-iphone-16e-128gb-black|$799",
-      "ts": 1768557097726
-    },
-    {
-      "key": "|https://www.catch.com.au/deals|",
-      "ts": 1768557102784
-    },
-    {
-      "key": "|https://www.kogan.com/au/deals/|",
-      "ts": 1768557107826
-    },
-    {
-      "key": "|https://www.priceline.com.au/offers|",
-      "ts": 1768557112850
-    },
-    {
-      "key": "|https://www.officeworks.com.au/shop/officeworks/specials|",
-      "ts": 1768557117948
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dreame-l40s-pro-ultra-robot-vacuum-and-mop-with-auto-empty-and-mop-self-cleaning|$2299",
-      "ts": 1768558369276
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-c5-ai-4k-uhd-smart-tv-2025|$3995",
-      "ts": 1768558376217
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tcl-75-c7k-4k-uhd-qd-mini-led-google-tv-2025|$1740",
-      "ts": 1768558381474
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s25-ultra-256gb-titanium-black|$1737",
-      "ts": 1768558387479
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/ecovacs-deebot-t50-pro-omni-robotic-vac-black|$1499",
       "ts": 1768599401379
     },
@@ -339,6 +259,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/945326|",
       "ts": 1769159179532
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/945362|",
+      "ts": 1769204346424
     }
   ]
 }
