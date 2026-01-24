@@ -1,54 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ecovacs-deebot-t50-pro-omni-robotic-vac-black|$1499",
-      "ts": 1768599401379
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-v8-origin-stick-vacuum|$1499",
-      "ts": 1768599407114
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-iphone-16-128gb-white|$1249",
-      "ts": 1768599412706
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-iphone-16e-128gb-black|$899",
-      "ts": 1768599418507
-    },
-    {
-      "key": "local|https://www.ozbargain.com.au/node/944575|",
-      "ts": 1768619166703
-    },
-    {
-      "key": "local|https://www.ozbargain.com.au/node/944560|",
-      "ts": 1768619171895
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-iphone-16e-128gb-white|$899",
-      "ts": 1768619177607
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-a56-5g-128gb-awesome-graphite|$699",
-      "ts": 1768619183825
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/bose-quietcomfort-ultra-noise-cancelling-headphones-black|$649",
-      "ts": 1768619189552
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fd0741tu-15-6-full-hd-laptop-intel-core-i5256gb|$649",
-      "ts": 1768619196287
-    },
-    {
-      "key": "local|https://www.ozbargain.com.au/node/944583|",
-      "ts": 1768619201402
-    },
-    {
-      "key": "local|https://www.ozbargain.com.au/node/944582|",
-      "ts": 1768619206575
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shark-fa052qgnanz-flexbreeze-hydrogo-misting-portable-fan-honeydew|$149.00",
       "ts": 1768635763721
     },
@@ -263,6 +215,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/945362|",
       "ts": 1769204346424
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/945395|",
+      "ts": 1769224381611
     }
   ]
 }
