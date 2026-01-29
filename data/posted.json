@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/945202|",
-      "ts": 1769072947866
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/945236|",
       "ts": 1769118020534
     },
@@ -243,6 +239,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/kindle-colorsoft-signature-edition-7-32gb-2025|$449.00",
       "ts": 1769658059746
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/945981|",
+      "ts": 1769678848974
     }
   ]
 }
