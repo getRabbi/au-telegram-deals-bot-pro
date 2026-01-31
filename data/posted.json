@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$295.00",
-      "ts": 1769245250882
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/945438|",
-      "ts": 1769245256119
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/govee-gaming-pixel-light|$199.00",
-      "ts": 1769245261162
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$143.00",
       "ts": 1769290533695
     },
@@ -239,6 +227,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/946201|",
       "ts": 1769830620239
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/946223|",
+      "ts": 1769850223171
     }
   ]
 }
