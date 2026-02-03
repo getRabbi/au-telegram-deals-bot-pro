@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-flexstyle-air-styling-drying-system-limited-edition-red-ruby-diamond|$499.00",
-      "ts": 1769504913003
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/945727|",
-      "ts": 1769504918428
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/playermaker-2-0-smart-soccer-tracker-kit-12m-subscription-medium|$349.00",
-      "ts": 1769504923622
-    },
-    {
       "key": "amazonau|b0clyct136|$46.86",
       "ts": 1769549867457
     },
@@ -211,6 +199,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shark-fa052qgnanz-flexbreeze-hydrogo-misting-portable-fan-honeydew|$149.00",
       "ts": 1770091062485
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/946688|",
+      "ts": 1770110879422
     }
   ]
 }
