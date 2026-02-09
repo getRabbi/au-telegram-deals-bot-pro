@@ -1,34 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$429.00",
-      "ts": 1770004987585
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/946452|",
-      "ts": 1770004992784
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$349.00",
-      "ts": 1770004997796
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-endurance-peak-4-tws-sports-in-ear-headphones-black|$199.00",
-      "ts": 1770005003004
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-endurance-zone-true-wireless-open-ear-sports-headphones-black-lime|$199.00",
-      "ts": 1770005008205
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-endurance-run-3-waterproof-wired-in-ear-headphones-black|$34.95",
-      "ts": 1770024957094
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/946518|",
-      "ts": 1770024962498
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/nothing-phone-3a-lite-5g-128gb-black|$439.00",
       "ts": 1770091051958
     },
@@ -203,6 +175,22 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/947532|",
       "ts": 1770610055349
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$429.00",
+      "ts": 1770630433263
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/947585|",
+      "ts": 1770630438249
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$349.00",
+      "ts": 1770630443233
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-endurance-zone-true-wireless-open-ear-sports-headphones-black-lime|$199.00",
+      "ts": 1770630448220
     }
   ]
 }
