@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/946688|",
-      "ts": 1770110879422
-    },
-    {
       "key": "amazonau|b0cy86qh83|$40.81",
       "ts": 1770176847614
     },
@@ -199,6 +195,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/nothing-phone-3a-lite-5g-128gb-black|$439.00",
       "ts": 1770696830296
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/947750|",
+      "ts": 1770716845844
     }
   ]
 }
