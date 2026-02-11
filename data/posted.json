@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/946851|",
-      "ts": 1770197491352
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shark-flexstyle-air-styling-drying-system-limited-edition-red-ruby-diamond|$349.00",
       "ts": 1770241801315
     },
@@ -199,6 +195,18 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/govee-gaming-pixel-light|$249.00",
       "ts": 1770783159767
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$199.00",
+      "ts": 1770802872062
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/947919|",
+      "ts": 1770802877285
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
+      "ts": 1770802882509
     }
   ]
 }
