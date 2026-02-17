@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/947634|",
-      "ts": 1770674479077
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
       "ts": 1770696814604
     },
@@ -215,6 +211,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-endurance-zone-true-wireless-open-ear-sports-headphones-black-lime|$199.00",
       "ts": 1771278604428
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/948584|",
+      "ts": 1771300850071
     }
   ]
 }
