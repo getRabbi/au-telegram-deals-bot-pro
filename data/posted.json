@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/948052|",
-      "ts": 1770888857145
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/telstra-prepaid-apple-iphone-se-5g-64gb-midnight-3rd-gen|$529.00",
       "ts": 1770933296000
     },
@@ -207,6 +203,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
       "ts": 1771493625833
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/948876|",
+      "ts": 1771538041602
     }
   ]
 }
