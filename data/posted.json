@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$189.00",
-      "ts": 1770955412068
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/948148|",
-      "ts": 1770955417306
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-hushjet-purifier-compact-hj10|$549.00",
-      "ts": 1770955422527
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
-      "ts": 1770955427724
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-linkbuds-clip-truly-wireless-earbuds-black|$329.00",
-      "ts": 1770955432976
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/948186|",
       "ts": 1770975149786
     },
@@ -207,6 +187,26 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/kindle-colorsoft-signature-edition-7-32gb-2025|$449.00",
       "ts": 1771559346756
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$899.00",
+      "ts": 1771579792511
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/948968|",
+      "ts": 1771579797882
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$189.00",
+      "ts": 1771579803098
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-hushjet-purifier-compact-hj10|$549.00",
+      "ts": 1771579808486
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
+      "ts": 1771579813916
     }
   ]
 }
