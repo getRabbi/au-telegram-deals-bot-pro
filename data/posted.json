@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/telstra-prepaid-apple-iphone-se-5g-64gb-midnight-3rd-gen|$529.00",
-      "ts": 1770933296000
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/948094|",
-      "ts": 1770933301000
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/kindle-colorsoft-signature-edition-7-32gb-2025|$449.00",
-      "ts": 1770933305996
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$189.00",
       "ts": 1770955412068
     },
@@ -207,6 +195,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/948876|",
       "ts": 1771538041602
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/telstra-prepaid-apple-iphone-se-5g-64gb-midnight-3rd-gen|$529.00",
+      "ts": 1771559336447
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/948926|",
+      "ts": 1771559341705
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/kindle-colorsoft-signature-edition-7-32gb-2025|$449.00",
+      "ts": 1771559346756
     }
   ]
 }
