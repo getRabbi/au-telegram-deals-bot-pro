@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "catch|https://www.catch.com.au/deals|",
-      "ts": 1771019803154
-    },
-    {
-      "key": "kogan|https://www.kogan.com/au/deals/|",
-      "ts": 1771019808121
-    },
-    {
-      "key": "local|https://www.priceline.com.au/offers|",
-      "ts": 1771019813247
-    },
-    {
-      "key": "local|https://www.officeworks.com.au/shop/officeworks/specials|",
-      "ts": 1771019818214
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/948249|",
       "ts": 1771040683636
     },
@@ -211,6 +195,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/949000|",
       "ts": 1771623998186
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/949027|",
+      "ts": 1771645195201
     }
   ]
 }
