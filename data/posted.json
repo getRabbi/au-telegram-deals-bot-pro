@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
-      "ts": 1771321008139
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/948622|",
-      "ts": 1771321013200
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx3bt-bluetooth-turntable|$469.00",
-      "ts": 1771321018246
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/nothing-phone-3a-lite-5g-128gb-black|$439.00",
-      "ts": 1771321023308
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/948650|",
       "ts": 1771365182351
     },
@@ -211,6 +195,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/949374|",
       "ts": 1771925995666
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
+      "ts": 1771970167850
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/949405|",
+      "ts": 1771970173066
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx3bt-bluetooth-turntable|$469.00",
+      "ts": 1771970178104
     }
   ]
 }
