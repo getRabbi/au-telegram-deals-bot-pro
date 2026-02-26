@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-spotscrubai-wet-and-dry-robot-vacuum|$1999.00",
-      "ts": 1771493615435
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/948836|",
-      "ts": 1771493620616
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
-      "ts": 1771493625833
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/948876|",
       "ts": 1771538041602
     },
@@ -215,6 +203,18 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
       "ts": 1772098686626
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-spotscrubai-wet-and-dry-robot-vacuum|$1999.00",
+      "ts": 1772142698479
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/949692|",
+      "ts": 1772142703662
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
+      "ts": 1772142708736
     }
   ]
 }
