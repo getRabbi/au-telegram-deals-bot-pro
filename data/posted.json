@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-linkbuds-clip-truly-wireless-earbuds-black|$329.00",
-      "ts": 1771623992945
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/949000|",
-      "ts": 1771623998186
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/949027|",
       "ts": 1771645195201
     },
@@ -207,6 +199,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
       "ts": 1772228957085
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-linkbuds-clip-truly-wireless-earbuds-black|$329.00",
+      "ts": 1772249312561
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/949843|",
+      "ts": 1772249317787
     }
   ]
 }
