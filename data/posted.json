@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/949080|",
-      "ts": 1771710099549
-    },
-    {
-      "key": "amazonau|b0d1b9yg6j|$49.37",
-      "ts": 1771732811429
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/949118|",
-      "ts": 1771732816563
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shark-flexstyle-air-styling-drying-system-limited-edition-red-ruby-diamond|$349.00",
       "ts": 1771751234989
     },
@@ -215,6 +203,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$349.00",
       "ts": 1772314730822
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/949946|",
+      "ts": 1772337897651
     }
   ]
 }
