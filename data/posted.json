@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$429.00",
-      "ts": 1771884409541
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/949288|",
-      "ts": 1771884414592
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$349.00",
-      "ts": 1771884419674
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-endurance-zone-true-wireless-open-ear-sports-headphones-black-lime|$199.00",
-      "ts": 1771884424689
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/949331|",
       "ts": 1771905644516
     },
@@ -195,6 +179,38 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-11-graphite|$429.00",
       "ts": 1772488476987
+    },
+    {
+      "key": "amazonau|b0czrmrq3y|$51.44",
+      "ts": 1772509831502
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$429.00",
+      "ts": 1772509836692
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/950224|",
+      "ts": 1772509842010
+    },
+    {
+      "key": "amazonau|b0czrmjsm1|$51.80",
+      "ts": 1772509848612
+    },
+    {
+      "key": "amazonau|b0czrp1kfg|$51.87",
+      "ts": 1772509854772
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$349.00",
+      "ts": 1772509859912
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-endurance-zone-true-wireless-open-ear-sports-headphones-black-lime|$199.00",
+      "ts": 1772509865232
+    },
+    {
+      "key": "amazonau|b0d6vsvfrz|$89.83",
+      "ts": 1772509870711
     }
   ]
 }
