@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
-      "ts": 1771970167850
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/949405|",
-      "ts": 1771970173066
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx3bt-bluetooth-turntable|$469.00",
-      "ts": 1771970178104
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/949441|",
       "ts": 1771992248586
     },
@@ -219,6 +207,22 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/950323|",
       "ts": 1772574772050
+    },
+    {
+      "key": "amazonau|b0flyh3vvx|$85.66",
+      "ts": 1772595720825
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
+      "ts": 1772595725933
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/950385|",
+      "ts": 1772595731025
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx3bt-bluetooth-turntable|$469.00",
+      "ts": 1772595736130
     }
   ]
 }
