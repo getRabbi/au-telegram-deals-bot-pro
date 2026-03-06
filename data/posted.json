@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-spotscrubai-wet-and-dry-robot-vacuum|$1999.00",
-      "ts": 1772142698479
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/949692|",
-      "ts": 1772142703662
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
-      "ts": 1772142708736
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/949738|",
       "ts": 1772163979106
     },
@@ -239,6 +227,26 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/950641|",
       "ts": 1772747697929
+    },
+    {
+      "key": "amazonau|b09l5jvf81|$126.17",
+      "ts": 1772768663967
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-spotscrubai-wet-and-dry-robot-vacuum|$1999.00",
+      "ts": 1772768669152
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/950694|",
+      "ts": 1772768674167
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
+      "ts": 1772768679187
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
+      "ts": 1772768684260
     }
   ]
 }
