@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/nothing-phone-3a-lite-5g-128gb-black|$439.00",
-      "ts": 1772314720796
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/949895|",
-      "ts": 1772314725791
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$349.00",
-      "ts": 1772314730822
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/949946|",
       "ts": 1772337897651
     },
@@ -275,6 +263,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/950910|",
       "ts": 1772919532002
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/950935|",
+      "ts": 1772941525782
     }
   ]
 }
