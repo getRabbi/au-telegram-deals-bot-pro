@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-wf-1000x-m6-truly-wireless-noise-cancelling-earbuds-black|$499.00",
-      "ts": 1772444206005
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/950125|",
-      "ts": 1772444211425
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/nebula-capsule-air-projector|$795.00",
       "ts": 1772488466723
     },
@@ -279,6 +271,14 @@
     {
       "key": "amazonau|b0flyh3vvx|$67.88",
       "ts": 1773049073072
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-wf-1000x-m6-truly-wireless-noise-cancelling-earbuds-black|$499.00",
+      "ts": 1773093072589
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/951133|",
+      "ts": 1773093077797
     }
   ]
 }
