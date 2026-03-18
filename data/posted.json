@@ -1,30 +1,6 @@
 {
   "posted": [
     {
-      "key": "amazonau|b0d4mfl985|$52.56",
-      "ts": 1773221475814
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
-      "ts": 1773221480861
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/951360|",
-      "ts": 1773221486112
-    },
-    {
-      "key": "amazonau|b0d4mfxx1m|$45.12",
-      "ts": 1773221492488
-    },
-    {
-      "key": "amazonau|b0d4mdbtkd|$40.09",
-      "ts": 1773221498789
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx3bt-bluetooth-turntable|$469.00",
-      "ts": 1773221503843
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$13.00",
       "ts": 1773265938327
     },
@@ -259,6 +235,18 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$249.00",
       "ts": 1773806621786
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
+      "ts": 1773826712809
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/952411|",
+      "ts": 1773826717849
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx3bt-bluetooth-turntable|$469.00",
+      "ts": 1773826722888
     }
   ]
 }
