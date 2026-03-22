@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/951797|",
-      "ts": 1773524800564
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/951830|",
       "ts": 1773548068269
     },
@@ -227,6 +223,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sony-linkbuds-clip-truly-wireless-earbuds-black|$329.00",
       "ts": 1774129304588
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/952988|",
+      "ts": 1774152003756
     }
   ]
 }
