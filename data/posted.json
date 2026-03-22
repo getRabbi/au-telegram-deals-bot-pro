@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "amazonau|b0bgntbd39|$43.85",
-      "ts": 1773565852068
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/951856|",
-      "ts": 1773565857051
-    },
-    {
-      "key": "amazonau|b07txzd22q|$43.85",
-      "ts": 1773565863211
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-11-graphite|$359.00",
       "ts": 1773611114034
     },
@@ -227,6 +215,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/953011|",
       "ts": 1774170395945
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$267.00",
+      "ts": 1774215935155
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/953040|",
+      "ts": 1774215940179
     }
   ]
 }
