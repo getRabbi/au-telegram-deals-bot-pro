@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "amazonau|b0d31gnl77|$206.11",
-      "ts": 1773654583585
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/952079|",
-      "ts": 1773654588623
-    },
-    {
-      "key": "amazonau|b0fp2t1lqh|$96.66",
-      "ts": 1773654595071
-    },
-    {
-      "key": "amazonau|b01n1ya9i7|$109.15",
-      "ts": 1773654601632
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$899.00",
       "ts": 1773698199786
     },
@@ -211,6 +195,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/953131|",
       "ts": 1774259249008
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/953159|",
+      "ts": 1774302798607
     }
   ]
 }
