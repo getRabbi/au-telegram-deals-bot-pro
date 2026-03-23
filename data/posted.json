@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-11-graphite|$359.00",
-      "ts": 1773611114034
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/951893|",
-      "ts": 1773611119058
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$359.00",
-      "ts": 1773611124095
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$294.00",
-      "ts": 1773611129132
-    },
-    {
       "key": "amazonau|b09t9gb494|$145.20",
       "ts": 1773634782557
     },
@@ -223,6 +207,22 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/953040|",
       "ts": 1774215940179
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-11-graphite|$359.00",
+      "ts": 1774238776001
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/953090|",
+      "ts": 1774238781183
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$359.00",
+      "ts": 1774238786208
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
+      "ts": 1774238791379
     }
   ]
 }
