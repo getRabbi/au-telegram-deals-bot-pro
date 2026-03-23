@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "amazonau|b09t9gb494|$145.20",
-      "ts": 1773634782557
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/remarkable-paper-pro-move-with-markerplus|$849.00",
-      "ts": 1773634787657
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/952004|",
-      "ts": 1773634792897
-    },
-    {
-      "key": "amazonau|b0bv2hvs1g|$83.93",
-      "ts": 1773634799257
-    },
-    {
-      "key": "amazonau|b0cmcwxpfx|$99.67",
-      "ts": 1773634804347
-    },
-    {
       "key": "amazonau|b0d31gnl77|$206.11",
       "ts": 1773654583585
     },
@@ -223,6 +203,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
       "ts": 1774238791379
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/remarkable-paper-pro-move-with-markerplus|$849.00",
+      "ts": 1774259243910
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/953131|",
+      "ts": 1774259249008
     }
   ]
 }
