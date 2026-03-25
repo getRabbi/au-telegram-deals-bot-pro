@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-max-2-midnight|$999.00",
-      "ts": 1773806611600
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/952367|",
-      "ts": 1773806616785
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$249.00",
-      "ts": 1773806621786
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sony-ps-lx5bt-premium-bluetooth-turntable|$599.00",
       "ts": 1773826712809
     },
@@ -195,6 +183,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/953322|",
       "ts": 1774411173603
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-max-2-midnight|$999.00",
+      "ts": 1774431516569
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/953385|",
+      "ts": 1774431521781
     }
   ]
 }
