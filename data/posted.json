@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/952304|",
-      "ts": 1773784589434
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-max-2-midnight|$999.00",
       "ts": 1773806611600
     },
@@ -195,6 +191,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/953288|",
       "ts": 1774389425279
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/953322|",
+      "ts": 1774411173603
     }
   ]
 }
