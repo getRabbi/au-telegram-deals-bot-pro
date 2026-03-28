@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/952893|",
-      "ts": 1774064153257
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-hushjet-purifier-compact-hj10|$549.00",
       "ts": 1774083945306
     },
@@ -195,6 +191,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/953688|",
       "ts": 1774648543306
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/953715|",
+      "ts": 1774670314369
     }
   ]
 }
