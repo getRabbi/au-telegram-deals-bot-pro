@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-max-2-midnight|$999.00",
-      "ts": 1774431516569
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/953385|",
-      "ts": 1774431521781
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$624.00",
       "ts": 1774475767599
     },
@@ -195,6 +187,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/954168|",
       "ts": 1775017884526
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-max-2-midnight|$999.00",
+      "ts": 1775037154222
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/954212|",
+      "ts": 1775037159468
     }
   ]
 }
