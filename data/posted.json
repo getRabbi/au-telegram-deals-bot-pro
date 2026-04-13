@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "amazonau|b0d1kbnwhf|$156.42",
-      "ts": 1775425936922
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/954670|",
-      "ts": 1775425942007
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/954701|",
-      "ts": 1775449451156
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
       "ts": 1775469350373
     },
@@ -187,6 +175,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/955363|",
       "ts": 1776030924516
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/955417|",
+      "ts": 1776055290322
     }
   ]
 }
