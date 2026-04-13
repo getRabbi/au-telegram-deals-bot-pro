@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
-      "ts": 1775469350373
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/954728|",
-      "ts": 1775469355551
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
       "ts": 1775512576080
     },
@@ -179,6 +171,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/955417|",
       "ts": 1776055290322
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
+      "ts": 1776075985783
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/955461|",
+      "ts": 1776075990999
     }
   ]
 }
