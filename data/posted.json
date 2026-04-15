@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/954909|",
-      "ts": 1775621856889
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/954947|",
       "ts": 1775642035236
     },
@@ -179,6 +175,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sony-wf-1000x-m6-truly-wireless-noise-cancelling-earbuds-black|$499.00",
       "ts": 1776204613768
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/955698|",
+      "ts": 1776227225596
     }
   ]
 }
