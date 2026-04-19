@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
-      "ts": 1775968154776
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/955310|",
-      "ts": 1775968160135
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-hushjet-purifier-compact-hj10|$549.00",
-      "ts": 1775968165360
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
-      "ts": 1775968170554
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/955333|",
       "ts": 1775986525022
     },
@@ -195,6 +179,22 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/956154|",
       "ts": 1776573196733
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
+      "ts": 1776591294434
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/956169|",
+      "ts": 1776591299576
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-hushjet-purifier-compact-hj10|$549.00",
+      "ts": 1776591304753
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
+      "ts": 1776591310122
     }
   ]
 }
