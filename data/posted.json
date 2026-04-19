@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/955333|",
-      "ts": 1775986525022
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/955363|",
       "ts": 1776030924516
     },
@@ -195,6 +191,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
       "ts": 1776591310122
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/956200|",
+      "ts": 1776635765005
     }
   ]
 }
