@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/remarkable-paper-pro-move-with-markerplus|$849.00",
-      "ts": 1776141163428
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/955547|",
-      "ts": 1776141168447
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/955590|",
-      "ts": 1776161121803
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/xgimi-mogo-3-pro-full-hd-projector|$855.00",
       "ts": 1776204598476
     },
@@ -199,6 +187,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/956362|",
       "ts": 1776745695682
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/remarkable-paper-pro-move-with-markerplus|$849.00",
+      "ts": 1776766195909
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/956395|",
+      "ts": 1776766201284
     }
   ]
 }
