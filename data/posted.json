@@ -199,6 +199,18 @@
     {
       "key": "amazonau|b0872ms62z|$59.49",
       "ts": 1776939283476
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$349.00",
+      "ts": 1776981981944
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/956682|",
+      "ts": 1776981987064
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-linkbuds-clip-truly-wireless-earbuds-black|$329.00",
+      "ts": 1776981992167
     }
   ]
 }
