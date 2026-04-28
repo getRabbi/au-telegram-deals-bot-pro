@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-cryoglow-cooling-led-face-mask-lilac-chill|$699.00",
-      "ts": 1776809019095
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/956417|",
-      "ts": 1776809024259
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/huawei-band-11-aluminium-alloy-case-with-fluoroelastomer-strap-white|$139.00",
-      "ts": 1776809029249
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/nebula-capsule-air-projector|$795.00",
       "ts": 1776832098483
     },
@@ -247,6 +235,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/957211|",
       "ts": 1777372692117
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/957233|",
+      "ts": 1777414426913
     }
   ]
 }
