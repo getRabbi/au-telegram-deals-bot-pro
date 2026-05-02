@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "amazonau|b09v2qf992|$251.17",
-      "ts": 1777068409712
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/956812|",
-      "ts": 1777068414838
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/956842|",
-      "ts": 1777090526297
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/956868|",
       "ts": 1777110095578
     },
@@ -219,6 +207,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/957678|",
       "ts": 1777673277125
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/957716|",
+      "ts": 1777696694150
     }
   ]
 }
