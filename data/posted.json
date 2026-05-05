@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/remarkable-paper-pro-move-with-markerplus|$849.00",
-      "ts": 1777372686837
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/957211|",
-      "ts": 1777372692117
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/957233|",
       "ts": 1777414426913
     },
@@ -187,6 +179,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/958089|",
       "ts": 1777976847538
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/remarkable-paper-pro-move-with-markerplus|$849.00",
+      "ts": 1778019290086
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/958142|",
+      "ts": 1778019295238
     }
   ]
 }
