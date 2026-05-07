@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/957522|",
-      "ts": 1777587104339
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-bandbox-trio-busking-speaker|$799.00",
       "ts": 1777611859875
     },
@@ -183,6 +179,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$699.00",
       "ts": 1778151368627
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/958403|",
+      "ts": 1778192320499
     }
   ]
 }
