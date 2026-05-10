@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-11-graphite|$359.00",
-      "ts": 1777845772039
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/957894|",
-      "ts": 1777845777040
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$359.00",
-      "ts": 1777845782009
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$294.00",
-      "ts": 1777845786994
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$234.00",
-      "ts": 1777845792157
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/957936|",
       "ts": 1777870624063
     },
@@ -183,6 +163,26 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
       "ts": 1778407493235
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-11-graphite|$359.00",
+      "ts": 1778450853564
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/958714|",
+      "ts": 1778450858914
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$359.00",
+      "ts": 1778450864079
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$294.00",
+      "ts": 1778450869414
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$349.00",
+      "ts": 1778450874554
     }
   ]
 }
