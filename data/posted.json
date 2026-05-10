@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
-      "ts": 1777802210384
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/957855|",
-      "ts": 1777802215365
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
-      "ts": 1777802220363
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-11-graphite|$359.00",
       "ts": 1777845772039
     },
@@ -183,6 +171,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/958644|",
       "ts": 1778389205278
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
+      "ts": 1778407482646
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/958670|",
+      "ts": 1778407488061
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/shokz-openfit-pro-wireless-open-ear-headphones-black|$399.00",
+      "ts": 1778407493235
     }
   ]
 }
