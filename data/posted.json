@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/957936|",
-      "ts": 1777870624063
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$299.00",
       "ts": 1777891102568
     },
@@ -183,6 +179,22 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$349.00",
       "ts": 1778450874554
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$198.00",
+      "ts": 1778476389576
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/958788|",
+      "ts": 1778476394659
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/ryze-element-smart-ring-size-8-black|$349.00",
+      "ts": 1778476399653
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$299.00",
+      "ts": 1778476404684
     }
   ]
 }
