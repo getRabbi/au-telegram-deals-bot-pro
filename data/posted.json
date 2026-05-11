@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$299.00",
-      "ts": 1777891102568
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/957970|",
-      "ts": 1777891107574
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/957999|",
       "ts": 1777933057535
     },
@@ -195,6 +187,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$299.00",
       "ts": 1778476404684
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/958835|",
+      "ts": 1778500151985
     }
   ]
 }
