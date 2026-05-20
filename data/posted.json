@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/959072|",
-      "ts": 1778648745189
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/diesel-x-ultrahuman-ring-size-05-cryo|$849.00",
       "ts": 1778671039300
     },
@@ -207,6 +203,14 @@
     {
       "key": "coles|https://www.coles.com.au/offers/coles-fest#terms|$50",
       "ts": 1779230462680
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$249.00",
+      "ts": 1779255500194
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/959965|",
+      "ts": 1779255505316
     }
   ]
 }
