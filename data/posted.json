@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
-      "ts": 1778797295506
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/959310|",
-      "ts": 1778797300653
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shark-glam-hot-tool-air-drying-styling-system-soft-pink|$699.00",
       "ts": 1778821715236
     },
@@ -195,6 +187,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$299.00",
       "ts": 1779364441478
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
+      "ts": 1779403385182
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/960179|",
+      "ts": 1779403390164
     }
   ]
 }
