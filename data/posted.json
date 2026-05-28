@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
-      "ts": 1779403385182
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/960179|",
-      "ts": 1779403390164
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-play-portable-speaker-black|$499.00",
       "ts": 1779428125535
     },
@@ -187,6 +179,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$429.00",
       "ts": 1779970043377
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
+      "ts": 1780008410078
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/961016|",
+      "ts": 1780008415201
     }
   ]
 }
