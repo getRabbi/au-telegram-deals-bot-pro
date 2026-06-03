@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$279.00",
-      "ts": 1779922327197
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/960894|",
-      "ts": 1779922332263
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
-      "ts": 1779922337304
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/xgimi-mogo-3-pro-full-hd-projector|$1095.00",
-      "ts": 1779922342463
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$369.00",
-      "ts": 1779922347629
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$248.00",
       "ts": 1779946985990
     },
@@ -199,6 +179,22 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/961923|",
       "ts": 1780491733752
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$279.00",
+      "ts": 1780528509058
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/961947|",
+      "ts": 1780528514048
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
+      "ts": 1780528519031
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/xgimi-mogo-3-pro-full-hd-projector|$1095.00",
+      "ts": 1780528524009
     }
   ]
 }
