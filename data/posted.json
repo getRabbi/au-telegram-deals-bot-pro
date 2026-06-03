@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/diesel-x-ultrahuman-ring-size-05-cryo|$849.00",
-      "ts": 1779883187316
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/960853|",
-      "ts": 1779883192696
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/nebula-capsule-air-projector|$795.00",
-      "ts": 1779883197866
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$279.00",
       "ts": 1779922327197
     },
@@ -203,6 +191,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$249.00",
       "ts": 1780467734475
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/nebula-capsule-air-projector|$795.00",
+      "ts": 1780491728470
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/961923|",
+      "ts": 1780491733752
     }
   ]
 }
