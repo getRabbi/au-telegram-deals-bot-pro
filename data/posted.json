@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-max-2-midnight|$999.00",
-      "ts": 1779970027732
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/961000|",
-      "ts": 1779970033026
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$699.00",
-      "ts": 1779970038153
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$429.00",
-      "ts": 1779970043377
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
       "ts": 1780008410078
     },
@@ -195,6 +179,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/962073|",
       "ts": 1780573194004
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-max-2-midnight|$999.00",
+      "ts": 1780613154240
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/962120|",
+      "ts": 1780613159220
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-studio-graphite|$429.00",
+      "ts": 1780613164215
     }
   ]
 }
