@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/nebula-capsule-air-projector|$795.00",
-      "ts": 1780491728470
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/961923|",
-      "ts": 1780491733752
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/amazon-echo-show-8-glacier-white|$279.00",
       "ts": 1780528509058
     },
@@ -191,6 +183,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$249.00",
       "ts": 1781092814464
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/962953|",
+      "ts": 1781132281585
     }
   ]
 }
