@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/962600|",
-      "ts": 1780923007406
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/govee-gaming-pixel-light|$174.00",
       "ts": 1780959033948
     },
@@ -191,6 +187,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/963561|",
       "ts": 1781505778884
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/963613|",
+      "ts": 1781534919560
     }
   ]
 }
