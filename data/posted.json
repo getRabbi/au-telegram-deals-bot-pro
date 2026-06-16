@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/962742|",
-      "ts": 1781005530093
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shark-cryoglow-cooling-led-face-mask-lilac-chill|$699.00",
       "ts": 1781045448861
     },
@@ -203,6 +199,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$179.00",
       "ts": 1781592940708
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/963742|",
+      "ts": 1781615917464
     }
   ]
 }
