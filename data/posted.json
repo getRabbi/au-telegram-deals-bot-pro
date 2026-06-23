@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/govee-gaming-pixel-light|$174.00",
-      "ts": 1781565003258
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/963628|",
-      "ts": 1781565008939
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/shark-glam-hot-tool-air-drying-styling-system-soft-pink|$699.00",
       "ts": 1781592925192
     },
@@ -215,6 +207,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
       "ts": 1782168964225
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/govee-gaming-pixel-light|$174.00",
+      "ts": 1782192935396
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/964714|",
+      "ts": 1782192940547
     }
   ]
 }
