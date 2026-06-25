@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$109.00",
-      "ts": 1781763328052
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/964029|",
-      "ts": 1781763333072
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-era-100-sl-speaker-black|$249.00",
-      "ts": 1781763338188
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/964085|",
       "ts": 1781784413877
     },
@@ -219,6 +207,26 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sony-1000x-the-collexion-wireless-noise-cancelling-headphones-black|$899.00",
       "ts": 1782365791630
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$109.00",
+      "ts": 1782386565412
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/965120|",
+      "ts": 1782386570388
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-era-100-sl-speaker-black|$249.00",
+      "ts": 1782386575382
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
+      "ts": 1782386580384
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$199.00",
+      "ts": 1782386585360
     }
   ]
 }
