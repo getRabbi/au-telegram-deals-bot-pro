@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/huawei-watch-fit-5-pro-black-fluoroelastomer-strap|$549.00",
-      "ts": 1782452584805
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/965242|",
-      "ts": 1782452589993
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/nothing-headphone-a-over-ear-anc-headphones-black|$279.00",
       "ts": 1782473529173
     },
@@ -207,6 +199,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/966191|",
       "ts": 1783055333892
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/huawei-watch-fit-5-pro-black-fluoroelastomer-strap|$549.00",
+      "ts": 1783077466524
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/966239|",
+      "ts": 1783077471744
     }
   ]
 }
