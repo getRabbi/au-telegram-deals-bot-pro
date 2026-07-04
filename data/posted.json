@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-cryoglow-cooling-led-face-mask-lilac-chill|$599.00",
-      "ts": 1782513428920
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/965311|",
-      "ts": 1782513434187
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/965356|",
       "ts": 1782536941017
     },
@@ -199,6 +191,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
       "ts": 1783117040907
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/966304|",
+      "ts": 1783141365421
     }
   ]
 }
