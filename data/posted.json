@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-play-portable-speaker-black|$499.00",
-      "ts": 1783117030901
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/966262|",
-      "ts": 1783117035917
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
-      "ts": 1783117040907
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/966304|",
       "ts": 1783141365421
     },
@@ -195,6 +183,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/967433|",
       "ts": 1783721767143
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-play-portable-speaker-black|$499.00",
+      "ts": 1783744670033
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/967469|",
+      "ts": 1783744675402
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
+      "ts": 1783744680594
     }
   ]
 }
