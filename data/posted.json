@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/966474|",
-      "ts": 1783316936865
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/966509|",
       "ts": 1783340927398
     },
@@ -191,6 +187,26 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-era-100-sl-speaker-black|$289.00",
       "ts": 1783918521716
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s25-ultra-256gb-titanium-black|$600",
+      "ts": 1783943078431
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/967737|",
+      "ts": 1783943083457
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-pixel-10-5g-128gb-obsidian|$600",
+      "ts": 1783943091179
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-omnibook-5-14-wuxga-laptop-intel-core-5-320256gb-blue|$450",
+      "ts": 1783943097756
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dreame-aqua10-roller-ae-robot-vacuum-cleaner|$959",
+      "ts": 1783943103697
     }
   ]
 }
