@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$125.00",
-      "ts": 1783377522568
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/966626|",
-      "ts": 1783377527617
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$389.50",
-      "ts": 1783377532678
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/966769|",
       "ts": 1783402128194
     },
@@ -211,6 +199,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/967764|",
       "ts": 1783980613736
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/967810|",
+      "ts": 1784003006551
     }
   ]
 }
