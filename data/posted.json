@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/967433|",
-      "ts": 1783721767143
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-play-portable-speaker-black|$499.00",
       "ts": 1783744670033
     },
@@ -207,6 +203,26 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s25-256gb-navy|$887.00",
       "ts": 1784326060109
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/motorola-edge-60-fusion-5g-256gb-slipstream|$600",
+      "ts": 1784348488301
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/968281|",
+      "ts": 1784348493537
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fd1539tu-15-6-full-hd-laptop-intel-core-5512gb|$500",
+      "ts": 1784348500456
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/lenovo-legion-5-15-3-wuxga-165hz-gaming-laptop-intel-core-i7-13650hxgeforce-rtx-5060|$500",
+      "ts": 1784348506911
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/lenovo-legion-tab-8-8-2-5k-qualcomm-snapdragon-256gb-android-tablet-eclipse-black|$499",
+      "ts": 1784348513829
     }
   ]
 }
