@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
-      "ts": 1783918505914
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/967687|",
-      "ts": 1783918511259
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/fujifilm-instax-mini-evo-cinema-instant-camera|$599.00",
-      "ts": 1783918516449
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-era-100-sl-speaker-black|$289.00",
-      "ts": 1783918521716
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s25-ultra-256gb-titanium-black|$600",
       "ts": 1783943078431
     },
@@ -223,6 +207,22 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/968422|",
       "ts": 1784498988204
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
+      "ts": 1784523636647
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/968467|",
+      "ts": 1784523641759
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/fujifilm-instax-mini-evo-cinema-instant-camera|$599.00",
+      "ts": 1784523646912
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sonos-era-100-sl-speaker-black|$289.00",
+      "ts": 1784523652087
     }
   ]
 }
