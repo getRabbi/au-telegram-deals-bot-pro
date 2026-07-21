@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/967855|",
-      "ts": 1784024737269
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
       "ts": 1784067197180
     },
@@ -215,6 +211,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/skullcandy-crusher-720-wireless-over-ear-headphones-black|$299.00",
       "ts": 1784608959034
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/968626|",
+      "ts": 1784630994373
     }
   ]
 }
