@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-glam-hot-tool-air-drying-styling-system-soft-pink|$699.00",
-      "ts": 1784111363251
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/967972|",
-      "ts": 1784111368632
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
-      "ts": 1784111373813
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/huawei-watch-fit-5-pro-black-fluoroelastomer-strap|$349.00",
       "ts": 1784153589623
     },
@@ -219,6 +207,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/968712|",
       "ts": 1784695385582
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-glam-hot-tool-air-drying-styling-system-soft-pink|$699.00",
+      "ts": 1784717512189
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/968759|",
+      "ts": 1784717517344
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
+      "ts": 1784717522567
     }
   ]
 }
