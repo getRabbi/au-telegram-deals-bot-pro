@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/huawei-watch-fit-5-pro-black-fluoroelastomer-strap|$349.00",
-      "ts": 1784153589623
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/968006|",
-      "ts": 1784153594755
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/gift-card-digital-500|$25.00",
-      "ts": 1784153599932
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
       "ts": 1784176410294
     },
@@ -219,6 +207,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
       "ts": 1784717522567
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/huawei-watch-fit-5-pro-black-fluoroelastomer-strap|$349.00",
+      "ts": 1784758618771
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/968803|",
+      "ts": 1784758623929
     }
   ]
 }
