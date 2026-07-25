@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/968338|",
-      "ts": 1784412492571
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/968370|",
       "ts": 1784436231083
     },
@@ -191,6 +187,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
       "ts": 1784974632723
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/969146|",
+      "ts": 1785017440530
     }
   ]
 }
