@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s25-ultra-256gb-titanium-black|$600",
-      "ts": 1785236586586
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/969433|",
-      "ts": 1785236591819
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/motorola-edge-60-fusion-5g-256gb-slipstream|$600",
-      "ts": 1785236597863
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-v8-handstick-vacuum|$384",
-      "ts": 1785236604643
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dell-15-dc15250-15-6-full-hd-laptop-intel-core-i5512gb|$989",
-      "ts": 1785236611581
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/skullcandy-crusher-1080-anc-sound-by-bose-over-ear-headphones-black|$399.00",
       "ts": 1785277076224
     },
@@ -211,6 +191,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970173|",
       "ts": 1785818383345
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/970215|",
+      "ts": 1785841816388
     }
   ]
 }
