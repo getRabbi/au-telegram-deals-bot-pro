@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
-      "ts": 1785408693201
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/969684|",
-      "ts": 1785408698427
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/vinyl-tyler-the-creator-dont-tap-the-glass-1-year-anniversary-clear-vinyl-lp-colour-may-vary|$84.99",
       "ts": 1785450000654
     },
@@ -187,6 +179,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/beats-solo-4-wireless-on-ear-headphones-bright-pink|$329.00",
       "ts": 1785991186634
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
+      "ts": 1786014432831
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/970484|",
+      "ts": 1786014438024
     }
   ]
 }
