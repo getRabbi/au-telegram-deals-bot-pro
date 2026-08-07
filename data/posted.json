@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/vinyl-tyler-the-creator-dont-tap-the-glass-1-year-anniversary-clear-vinyl-lp-colour-may-vary|$84.99",
-      "ts": 1785450000654
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/969715|",
-      "ts": 1785450005739
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/cd-hu-the-hun-cd|$22.99",
-      "ts": 1785450010823
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
       "ts": 1785473655783
     },
@@ -187,6 +175,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970484|",
       "ts": 1786014438024
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/vinyl-sleep-token-even-in-arcadia-instrumental-translucent-blue-vinyl-2lp-colour-may-vary|$105.00",
+      "ts": 1786064596241
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/970528|",
+      "ts": 1786064601580
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/vinyl-tyler-the-creator-dont-tap-the-glass-1-year-anniversary-clear-vinyl-lp-colour-may-vary|$84.99",
+      "ts": 1786064606660
     }
   ]
 }
