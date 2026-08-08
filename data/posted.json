@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$199.00",
-      "ts": 1785559643566
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/969865|",
-      "ts": 1785559648760
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
-      "ts": 1785559653789
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
       "ts": 1785579756184
     },
@@ -187,6 +175,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970671|",
       "ts": 1786158363021
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$199.00",
+      "ts": 1786180959261
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/970702|",
+      "ts": 1786180964283
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
+      "ts": 1786180969292
     }
   ]
 }
