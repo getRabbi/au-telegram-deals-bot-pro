@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
-      "ts": 1785758561935
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/970107|",
-      "ts": 1785758567027
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
-      "ts": 1785758572114
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970127|",
       "ts": 1785795510039
     },
@@ -187,6 +175,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970864|",
       "ts": 1786356148566
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
+      "ts": 1786399120922
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/970890|",
+      "ts": 1786399126286
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
+      "ts": 1786399131441
     }
   ]
 }
