@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/970127|",
-      "ts": 1785795510039
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
       "ts": 1785818378244
     },
@@ -187,6 +183,22 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
       "ts": 1786399131441
+    },
+    {
+      "key": "catch|https://www.catch.com.au/deals|",
+      "ts": 1786418170252
+    },
+    {
+      "key": "kogan|https://www.kogan.com/au/deals/|",
+      "ts": 1786418175277
+    },
+    {
+      "key": "local|https://www.priceline.com.au/offers|",
+      "ts": 1786418180449
+    },
+    {
+      "key": "local|https://www.officeworks.com.au/shop/officeworks/specials|",
+      "ts": 1786418185455
     }
   ]
 }
