@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/970299|",
-      "ts": 1785904756894
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970366|",
       "ts": 1785927990892
     },
@@ -199,6 +195,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/skullcandy-crusher-720-wireless-over-ear-headphones-black|$299.00",
       "ts": 1786505674865
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/971102|",
+      "ts": 1786528050749
     }
   ]
 }
