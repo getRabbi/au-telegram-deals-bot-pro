@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-cryoglow-cooling-led-face-mask-lilac-chill|$699.00",
-      "ts": 1786139781468
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/970645|",
-      "ts": 1786139786564
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$369.00",
-      "ts": 1786139791610
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-cirqa-smart-band-black-s-m|$299.00",
-      "ts": 1786139796779
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
-      "ts": 1786139801964
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970671|",
       "ts": 1786158363021
     },
@@ -195,6 +175,26 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/971418|",
       "ts": 1786743686369
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-cryoglow-cooling-led-face-mask-lilac-chill|$699.00",
+      "ts": 1786761054327
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/971440|",
+      "ts": 1786761059586
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$369.00",
+      "ts": 1786761064704
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-cirqa-smart-band-black-s-m|$299.00",
+      "ts": 1786761069789
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
+      "ts": 1786761074796
     }
   ]
 }
