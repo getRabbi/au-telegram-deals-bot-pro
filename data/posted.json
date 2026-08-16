@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
-      "ts": 1786225607673
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/970718|",
-      "ts": 1786225612870
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
-      "ts": 1786225617885
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/970733|",
       "ts": 1786245200181
     },
@@ -195,6 +183,18 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
       "ts": 1786829749832
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
+      "ts": 1786847957660
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/971527|",
+      "ts": 1786847962660
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
+      "ts": 1786847967665
     }
   ]
 }
