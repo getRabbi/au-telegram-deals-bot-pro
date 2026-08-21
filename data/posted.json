@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/971331|",
-      "ts": 1786678503484
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
       "ts": 1786700627434
     },
@@ -179,6 +175,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/972170|",
       "ts": 1787280098539
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$349.00",
+      "ts": 1787304010003
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/972242|",
+      "ts": 1787304015019
     }
   ]
 }
