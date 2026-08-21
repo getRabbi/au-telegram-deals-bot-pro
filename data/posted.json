@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
-      "ts": 1786700627434
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/971391|",
-      "ts": 1786700632647
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
-      "ts": 1786700637663
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$749.00",
-      "ts": 1786700642660
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/971418|",
       "ts": 1786743686369
     },
@@ -183,6 +167,22 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/972242|",
       "ts": 1787304015019
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
+      "ts": 1787348336532
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/972267|",
+      "ts": 1787348341839
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
+      "ts": 1787348347072
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$749.00",
+      "ts": 1787348352475
     }
   ]
 }
