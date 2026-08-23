@@ -1,30 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$199.00",
-      "ts": 1786829739543
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/971511|",
-      "ts": 1786829744784
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
-      "ts": 1786829749832
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
-      "ts": 1786847957660
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/971527|",
-      "ts": 1786847962660
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
-      "ts": 1786847967665
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/971563|",
       "ts": 1786871012487
     },
@@ -183,6 +159,26 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/972358|",
       "ts": 1787434563250
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-fitbit-air-lavender|$199.00",
+      "ts": 1787452901134
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/972374|",
+      "ts": 1787452906307
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$199.00",
+      "ts": 1787452911327
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
+      "ts": 1787452916322
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
+      "ts": 1787452921498
     }
   ]
 }
