@@ -1,42 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/pure-escape-electric-scooter-black|$1399.00",
-      "ts": 1787348336532
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/972267|",
-      "ts": 1787348341839
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
-      "ts": 1787348347072
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$749.00",
-      "ts": 1787348352475
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-cryoglow-cooling-led-face-mask-lilac-chill|$699.00",
-      "ts": 1787365982986
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/972293|",
-      "ts": 1787365988174
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$369.00",
-      "ts": 1787365993360
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-cirqa-smart-band-black-s-m|$299.00",
-      "ts": 1787365998841
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
-      "ts": 1787366004213
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/972329|",
       "ts": 1787389465382
     },
@@ -219,6 +183,26 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/973143|",
       "ts": 1787948619865
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
+      "ts": 1787973082591
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/973167|",
+      "ts": 1787973087664
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/shark-cryoglow-cooling-led-face-mask-lilac-chill|$699.00",
+      "ts": 1787973092744
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$369.00",
+      "ts": 1787973097984
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-cirqa-smart-band-black-s-m|$299.00",
+      "ts": 1787973103023
     }
   ]
 }
