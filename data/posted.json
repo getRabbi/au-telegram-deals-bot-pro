@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/972403|",
-      "ts": 1787475876498
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$555.00",
       "ts": 1787520976501
     },
@@ -207,6 +203,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
       "ts": 1788073087480
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/973299|",
+      "ts": 1788098461864
     }
   ]
 }
