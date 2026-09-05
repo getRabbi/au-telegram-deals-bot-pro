@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ryze-element-smart-ring-size-8-black|$149.00",
-      "ts": 1788012105659
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/973222|",
-      "ts": 1788012110826
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/973237|",
       "ts": 1788045632603
     },
@@ -195,6 +187,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/974022|",
       "ts": 1788609972532
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/fujifilm-instax-mini-evo-cinema-instant-camera|$599.00",
+      "ts": 1788648935926
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/974043|",
+      "ts": 1788648940910
     }
   ]
 }
