@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/973193|",
-      "ts": 1787990430817
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/ryze-element-smart-ring-size-8-black|$149.00",
       "ts": 1788012105659
     },
@@ -195,6 +191,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$369.00",
       "ts": 1788587969042
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/974022|",
+      "ts": 1788609972532
     }
   ]
 }
