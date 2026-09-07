@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$3999.00",
-      "ts": 1788160337825
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/973379|",
-      "ts": 1788160343014
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
       "ts": 1788193464647
     },
@@ -195,6 +187,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
       "ts": 1788761950072
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/974236|",
+      "ts": 1788791292753
     }
   ]
 }
