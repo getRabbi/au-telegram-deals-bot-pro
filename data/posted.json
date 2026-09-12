@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
-      "ts": 1788587958845
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/973996|",
-      "ts": 1788587964038
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/eufy-e10-all-in-one-smart-display|$369.00",
-      "ts": 1788587969042
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/974022|",
       "ts": 1788609972532
     },
@@ -187,6 +175,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/974750|",
       "ts": 1789168610070
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/asus-vivobook-15-6-full-hd-thin-light-laptop-intel-core-51tb|$799",
+      "ts": 1789192978592
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/974795|",
+      "ts": 1789192983778
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
+      "ts": 1789192988808
     }
   ]
 }
