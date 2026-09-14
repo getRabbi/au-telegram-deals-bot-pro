@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$555.00",
-      "ts": 1788761939504
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/974177|",
-      "ts": 1788761944877
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
-      "ts": 1788761950072
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/974236|",
       "ts": 1788791292753
     },
@@ -179,6 +167,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/974935|",
       "ts": 1789341085716
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
+      "ts": 1789367828134
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975005|",
+      "ts": 1789367833407
     }
   ]
 }
