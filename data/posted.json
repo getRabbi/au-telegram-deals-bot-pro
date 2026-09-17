@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$13.00",
-      "ts": 1789081924943
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/974625|",
-      "ts": 1789081930079
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
       "ts": 1789107414121
     },
@@ -183,6 +175,18 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/gift-card-digital-500|$25.00",
       "ts": 1789652957216
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-omnibook-3-14-wuxga-ai-pc-laptop-snapdragon-x1512gb|$999.00",
+      "ts": 1789688071613
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975521|",
+      "ts": 1789688076774
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$13.00",
+      "ts": 1789688081897
     }
   ]
 }
