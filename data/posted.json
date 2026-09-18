@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/cd-cassar-daley-jem-tattoos-used-to-come-off-in-the-pool-cd|$22.99",
-      "ts": 1789168604834
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/974750|",
-      "ts": 1789168610070
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/asus-vivobook-15-6-full-hd-thin-light-laptop-intel-core-51tb|$799",
       "ts": 1789192978592
     },
@@ -191,6 +183,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/975635|",
       "ts": 1789737064744
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975654|",
+      "ts": 1789773531398
     }
   ]
 }
