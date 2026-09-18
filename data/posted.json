@@ -187,6 +187,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$13.00",
       "ts": 1789688081897
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s26-ultra-5g-256gb-black|$1699.00",
+      "ts": 1789711821075
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975595|",
+      "ts": 1789711826165
     }
   ]
 }
