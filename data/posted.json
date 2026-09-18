@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
-      "ts": 1789107414121
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/974674|",
-      "ts": 1789107419120
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/974712|",
-      "ts": 1789131742561
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/cd-cassar-daley-jem-tattoos-used-to-come-off-in-the-pool-cd|$22.99",
       "ts": 1789168604834
     },
@@ -195,6 +183,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/975595|",
       "ts": 1789711826165
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
+      "ts": 1789737059347
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975635|",
+      "ts": 1789737064744
     }
   ]
 }
