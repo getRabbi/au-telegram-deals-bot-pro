@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
-      "ts": 1789367828134
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975005|",
-      "ts": 1789367833407
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-ai-w6-wallpaper-4k-smart-tv-2026|$9495.00",
       "ts": 1789398979261
     },
@@ -203,6 +195,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
       "ts": 1789946216082
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
+      "ts": 1789972830991
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975903|",
+      "ts": 1789972836180
     }
   ]
 }
