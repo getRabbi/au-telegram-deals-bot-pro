@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-ai-w6-wallpaper-4k-smart-tv-2026|$9495.00",
-      "ts": 1789398979261
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975061|",
-      "ts": 1789398984535
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
       "ts": 1789430001423
     },
@@ -203,6 +195,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/975903|",
       "ts": 1789972836180
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975941|",
+      "ts": 1790004092877
     }
   ]
 }
