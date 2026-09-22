@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
-      "ts": 1789430001423
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975088|",
-      "ts": 1789430006731
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/975157|",
       "ts": 1789453171454
     },
@@ -199,6 +191,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/975941|",
       "ts": 1790004092877
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
+      "ts": 1790035677455
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/975965|",
+      "ts": 1790035682447
     }
   ]
 }
