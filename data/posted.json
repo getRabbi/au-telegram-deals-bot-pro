@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975193|",
-      "ts": 1789480422779
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
-      "ts": 1789515179452
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975225|",
-      "ts": 1789515184697
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-camerajet-electric-toothbrush-with-flosser-and-starter-kit-ultra-blue|$799.00",
       "ts": 1789539502786
     },
@@ -203,6 +191,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/976043|",
       "ts": 1790084494174
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
+      "ts": 1790120228918
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/976068|",
+      "ts": 1790120234057
     }
   ]
 }
