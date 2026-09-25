@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s26-ultra-5g-256gb-black|$1699.00",
-      "ts": 1789711821075
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975595|",
-      "ts": 1789711826165
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
       "ts": 1789737059347
     },
@@ -207,6 +199,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/gift-card-digital-500|$25.00",
       "ts": 1790294091298
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/976420|",
+      "ts": 1790317088635
     }
   ]
 }
