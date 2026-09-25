@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
-      "ts": 1789737059347
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975635|",
-      "ts": 1789737064744
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/975654|",
       "ts": 1789773531398
     },
@@ -203,6 +195,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/976420|",
       "ts": 1790317088635
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
+      "ts": 1790345497568
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/976459|",
+      "ts": 1790345502666
     }
   ]
 }
