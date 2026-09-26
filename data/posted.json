@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
-      "ts": 1789798173703
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/975704|",
-      "ts": 1789798179019
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-a57-5g-128gb-awesome-navy|$599.00",
       "ts": 1789821763118
     },
@@ -203,6 +195,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/976483|",
       "ts": 1790380683891
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
+      "ts": 1790403458500
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/976533|",
+      "ts": 1790403463663
     }
   ]
 }
