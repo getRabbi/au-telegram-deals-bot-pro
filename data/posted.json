@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
-      "ts": 1790345497568
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/976459|",
-      "ts": 1790345502666
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/976483|",
       "ts": 1790380683891
     },
@@ -235,6 +227,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/gift-card-digital-500|$25.00",
       "ts": 1790925115077
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-home-speaker-porcelain|$199.00",
+      "ts": 1790953331370
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/977507|",
+      "ts": 1790953336559
     }
   ]
 }
