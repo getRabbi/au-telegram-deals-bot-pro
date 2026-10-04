@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
-      "ts": 1790552940921
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/976646|",
-      "ts": 1790552946037
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
-      "ts": 1790552951186
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
-      "ts": 1790552956307
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/hp-15-fd0758tu-15-6-full-hd-laptop-intel-core-i5-1334u256gb|$799.00",
       "ts": 1790579468198
     },
@@ -235,6 +219,26 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/977712|",
       "ts": 1791123828527
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s26-5g-256gb-black|$1149.00",
+      "ts": 1791158307541
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/977727|",
+      "ts": 1791158312720
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/tefal-dolci-ice-cream-maker-nesquik-bundle-rise|$247.00",
+      "ts": 1791158317875
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
+      "ts": 1791158323240
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
+      "ts": 1791158328606
     }
   ]
 }
