@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-15-fd0758tu-15-6-full-hd-laptop-intel-core-i5-1334u256gb|$799.00",
-      "ts": 1790579468198
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/976708|",
-      "ts": 1790579473519
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-77-s85h-oled-4k-smart-ai-tv-2026|$3470.00",
-      "ts": 1790579478611
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dyson-v8-cyclone|$499.00",
-      "ts": 1790579483830
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/meta-quest-3s-128gb|$479.00",
-      "ts": 1790579489075
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
       "ts": 1790614949639
     },
@@ -239,6 +219,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
       "ts": 1791158328606
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/977790|",
+      "ts": 1791184772437
     }
   ]
 }
