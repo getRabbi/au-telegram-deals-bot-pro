@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/bose-quietcomfort-earbuds-black|$179.00",
-      "ts": 1790665719005
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/976973|",
-      "ts": 1790665724253
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/977041|",
       "ts": 1790694396065
     },
@@ -211,6 +203,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/977873|",
       "ts": 1791251211888
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/977927|",
+      "ts": 1791272735176
     }
   ]
 }
