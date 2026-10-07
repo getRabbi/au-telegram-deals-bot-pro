@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
-      "ts": 1790728081902
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/977067|",
-      "ts": 1790728087094
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/gaming-collectibles-grand-theft-auto-vi-the-goodtime-state-vice-city-collection|$699.00",
       "ts": 1790751532369
     },
@@ -207,6 +199,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/977955|",
       "ts": 1791300506206
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
+      "ts": 1791333809313
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/977998|",
+      "ts": 1791333814515
     }
   ]
 }
