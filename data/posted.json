@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
-      "ts": 1791009877133
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/977591|",
-      "ts": 1791009882429
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/977629|",
       "ts": 1791035763955
     },
@@ -191,6 +183,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/978427|",
       "ts": 1791593501831
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
+      "ts": 1791617065058
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/978467|",
+      "ts": 1791617070339
     }
   ]
 }
