@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s26-ultra-5g-256gb-black|$2199.00",
-      "ts": 1791123823184
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/977712|",
-      "ts": 1791123828527
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s26-5g-256gb-black|$1149.00",
       "ts": 1791158307541
     },
@@ -191,6 +183,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/978572|",
       "ts": 1791703769307
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/978599|",
+      "ts": 1791731186176
     }
   ]
 }
