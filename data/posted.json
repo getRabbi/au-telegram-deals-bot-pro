@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/fujifilm-instax-mini-evo-cinema-instant-camera|$599.00",
-      "ts": 1791677725463
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/978544|",
-      "ts": 1791677730625
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/978572|",
       "ts": 1791703769307
     },
@@ -215,6 +207,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/979396|",
       "ts": 1792278530956
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/fujifilm-instax-mini-evo-cinema-instant-camera|$599.00",
+      "ts": 1792303963632
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/979420|",
+      "ts": 1792303968629
     }
   ]
 }
