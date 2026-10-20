@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/978824|",
-      "ts": 1791878213459
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/978859|",
       "ts": 1791908907243
     },
@@ -211,6 +207,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$199.00",
       "ts": 1792476882225
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/979736|",
+      "ts": 1792504333031
     }
   ]
 }
