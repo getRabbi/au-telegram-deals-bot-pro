@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-homeview-space-grey|$449.00",
-      "ts": 1791937158696
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/978888|",
-      "ts": 1791937163993
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-tv-4k-4th-gen|$449.00",
-      "ts": 1791937169109
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-homepod-mini-2-midnight|$229.00",
-      "ts": 1791937174414
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
       "ts": 1791958977346
     },
@@ -211,6 +195,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/979760|",
       "ts": 1792540421066
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-homeview-space-grey|$449.00",
+      "ts": 1792563187441
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/979827|",
+      "ts": 1792563192516
     }
   ]
 }
