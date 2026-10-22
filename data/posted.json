@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$13.00",
-      "ts": 1792071786826
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/979153|",
-      "ts": 1792071792221
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$349.00",
       "ts": 1792107734733
     },
@@ -195,6 +187,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/skylight-15-smart-family-calendar-w-disney-mode|$529.00",
       "ts": 1792649874536
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/980011|",
+      "ts": 1792678035466
     }
   ]
 }
