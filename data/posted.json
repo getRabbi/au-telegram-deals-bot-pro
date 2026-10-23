@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/979308|",
-      "ts": 1792193772788
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/979346|",
       "ts": 1792216132185
     },
@@ -195,6 +191,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/gift-card-digital-500|$25.00",
       "ts": 1792763428333
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/980180|",
+      "ts": 1792799549574
     }
   ]
 }
