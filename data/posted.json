@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
-      "ts": 1792239988610
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/979377|",
-      "ts": 1792239993846
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/979396|",
       "ts": 1792278530956
     },
@@ -195,6 +187,26 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/980207|",
       "ts": 1792821991419
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/honor-600-5g-256gb-black|$300",
+      "ts": 1792846606438
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/980232|",
+      "ts": 1792846611420
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dell-14s-14-wuxga-oled-ai-pc-laptop-intel-core-ultra-5-322512gb|$1599.00",
+      "ts": 1792846616431
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-15-fd0758tu-15-6-full-hd-laptop-intel-core-i5-1334u256gb|$799.00",
+      "ts": 1792846621463
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s26-5g-256gb-cobalt-violet|$1149.00",
+      "ts": 1792846626634
     }
   ]
 }
