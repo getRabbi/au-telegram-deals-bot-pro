@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/979396|",
-      "ts": 1792278530956
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/fujifilm-instax-mini-evo-cinema-instant-camera|$599.00",
       "ts": 1792303963632
     },
@@ -207,6 +203,14 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-s26-5g-256gb-cobalt-violet|$1149.00",
       "ts": 1792846626634
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
+      "ts": 1792883691805
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/980246|",
+      "ts": 1792883696790
     }
   ]
 }
