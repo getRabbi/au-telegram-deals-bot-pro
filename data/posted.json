@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/979346|",
-      "ts": 1792216132185
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-galaxy-watch-ultra2-47mm-titanium-grey-marine-black|$1299.00",
       "ts": 1792239988610
     },
@@ -195,6 +191,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/980180|",
       "ts": 1792799549574
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/980207|",
+      "ts": 1792821991419
     }
   ]
 }
