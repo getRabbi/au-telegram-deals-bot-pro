@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
-      "ts": 1792391192652
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/979557|",
-      "ts": 1792391197967
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
-      "ts": 1792391203067
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/979614|",
       "ts": 1792425202042
     },
@@ -215,6 +203,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/980358|",
       "ts": 1792970254924
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$219.00",
+      "ts": 1792996559236
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/980423|",
+      "ts": 1792996564295
     }
   ]
 }
