@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-homeview-space-grey|$449.00",
-      "ts": 1792563187441
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/979827|",
-      "ts": 1792563192516
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/honor-600-5g-256gb-black|$699.00",
       "ts": 1792591724812
     },
@@ -199,6 +191,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/980658|",
       "ts": 1793147521506
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/980716|",
+      "ts": 1793170825094
     }
   ]
 }
