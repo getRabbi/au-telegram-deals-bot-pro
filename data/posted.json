@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/980563|",
-      "ts": 1793082720209
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/980622|",
       "ts": 1793112976348
     },
@@ -199,6 +195,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$749.00",
       "ts": 1793674582554
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/981473|",
+      "ts": 1793693371783
     }
   ]
 }
