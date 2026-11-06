@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$349.00",
-      "ts": 1793321980157
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/980927|",
-      "ts": 1793321985251
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
-      "ts": 1793321990406
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sennheiser-momentum-true-wireless-5-in-ear-headphones-graphite|$499.00",
       "ts": 1793345112904
     },
@@ -191,6 +179,18 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jb-hi-fi-mobile-pre-paid-sim-1|$39.00",
       "ts": 1793897891165
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$349.00",
+      "ts": 1793928783789
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/981890|",
+      "ts": 1793928789117
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
+      "ts": 1793928794316
     }
   ]
 }
