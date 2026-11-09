@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$219.00",
-      "ts": 1793605976428
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/981340|",
-      "ts": 1793605981683
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/981371|",
       "ts": 1793645491641
     },
@@ -187,6 +179,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/982205|",
       "ts": 1794185728693
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$219.00",
+      "ts": 1794212162965
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/982273|",
+      "ts": 1794212167992
     }
   ]
 }
