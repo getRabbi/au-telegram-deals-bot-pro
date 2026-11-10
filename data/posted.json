@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/981473|",
-      "ts": 1793693371783
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/981523|",
       "ts": 1793723726365
     },
@@ -187,6 +183,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
       "ts": 1794281728191
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/982430|",
+      "ts": 1794299765423
     }
   ]
 }
