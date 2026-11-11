@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/981562|",
-      "ts": 1793755302651
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/981630|",
-      "ts": 1793778139533
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fd1265tu-15-6-full-hd-laptop-intel-core-5256gb|$749.00",
       "ts": 1793810176972
     },
@@ -191,6 +183,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/982525|",
       "ts": 1794359747666
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/982598|",
+      "ts": 1794383795443
     }
   ]
 }
