@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$349.00",
-      "ts": 1793928783789
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/981890|",
-      "ts": 1793928789117
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
-      "ts": 1793928794316
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/sennheiser-momentum-true-wireless-5-in-ear-headphones-graphite|$499.00",
       "ts": 1793981950196
     },
@@ -175,6 +163,26 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/cygnett-boost-10k-v4-power-bank-black|$59.95",
       "ts": 1794503195036
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fd1539tu-15-6-full-hd-laptop-intel-core-5512gb-16gb|$898.00",
+      "ts": 1794534614405
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/982918|",
+      "ts": 1794534619624
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/dell-15-dc15255-15-6-fhd-120hz-laptop-ryzen-5512gb-8gb|$748.00",
+      "ts": 1794534624689
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$349.00",
+      "ts": 1794534629920
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-cs-8-digital-video-camera|$299.00",
+      "ts": 1794534634982
     }
   ]
 }
