@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fd1539tu-15-6-full-hd-laptop-intel-core-5512gb|$898.00",
-      "ts": 1794449798585
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/982729|",
-      "ts": 1794449803585
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/dell-15-dc15255-15-6-fhd-120hz-laptop-ryzen-5512gb|$748.00",
-      "ts": 1794449808557
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$567.00",
-      "ts": 1794449813745
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sony-alpha-a7-v-full-frame-mirrorless-camera-body-only|$4399.00",
-      "ts": 1794449818934
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-pixel-11-5g-256gb-frost|$997.00",
       "ts": 1794472458062
     },
@@ -259,6 +239,22 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
       "ts": 1795023322638
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-ai-c6-4k-smart-tv-2026|$3591.00",
+      "ts": 1795055678865
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/984167|",
+      "ts": 1795055683978
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$567.00",
+      "ts": 1795055689060
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$269.00",
+      "ts": 1795055694129
     }
   ]
 }
