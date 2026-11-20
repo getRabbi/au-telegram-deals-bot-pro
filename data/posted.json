@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/sennheiser-momentum-true-wireless-5-in-ear-headphones-graphite|$499.00",
-      "ts": 1794588319494
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/983046|",
-      "ts": 1794588324696
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ryze-element-smart-ring-size-8-black|$349.00",
-      "ts": 1794588329686
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-5-with-wireless-charging-case|$249.00",
-      "ts": 1794588334844
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-5|$219.00",
-      "ts": 1794588339857
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-5|$199.00",
       "ts": 1794619674819
     },
@@ -247,6 +227,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/984516|",
       "ts": 1795164436470
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/ryze-element-smart-ring-size-8-black|$349.00",
+      "ts": 1795195109826
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/984555|",
+      "ts": 1795195115017
     }
   ]
 }
