@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/983245|",
-      "ts": 1794729743222
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/skylight-15-smart-family-calendar-w-disney-mode|$449.00",
       "ts": 1794758044339
     },
@@ -231,6 +227,14 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/984728|",
       "ts": 1795310362808
+    },
+    {
+      "key": "chemistwarehouse|https://www.chemistwarehouse.com.au/shop-online/5644/mcobeauty-cosmetics|$30",
+      "ts": 1795335740891
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/984777|",
+      "ts": 1795335746069
     }
   ]
 }
