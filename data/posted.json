@@ -1,18 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$219.00",
-      "ts": 1794855428200
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/983512|",
-      "ts": 1794855433362
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/apple-airpods-5|$200.00",
-      "ts": 1794855438358
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/garmin-fenix-9-pro-inreach-51mm-carbon-grey-dlc-titanium-with-black-pebble-grey-silicone-band|$2149.00",
       "ts": 1794887650223
     },
@@ -207,6 +195,10 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/985062|",
       "ts": 1795425672333
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/985101|",
+      "ts": 1795466102433
     }
   ]
 }
