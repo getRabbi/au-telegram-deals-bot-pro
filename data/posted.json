@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/camp-snap-pro-digital-camera|$199.00",
-      "ts": 1794907606034
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/983748|",
-      "ts": 1794907611130
-    },
-    {
       "key": "ozbargain|https://www.ozbargain.com.au/node/983807|",
       "ts": 1794938092501
     },
@@ -199,6 +191,10 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/jbl-cove-m1-connected-wifi-speaker-black|$299.00",
       "ts": 1795497621583
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/985270|",
+      "ts": 1795518975836
     }
   ]
 }
