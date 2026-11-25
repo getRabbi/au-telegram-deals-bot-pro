@@ -1,26 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-85-qn70h-neo-qled-4k-mini-led-smart-ai-tv-2026|$1945.00",
-      "ts": 1795023301760
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/984030|",
-      "ts": 1795023306972
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/hp-laptop-15-fc0820au-15-6-full-hd-laptop-ryzen-5512gb-8gb|$787.00",
-      "ts": 1795023312086
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-ai-c6-4k-smart-tv-2026|$3754.00",
-      "ts": 1795023317291
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
-      "ts": 1795023322638
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-ai-c6-4k-smart-tv-2026|$3591.00",
       "ts": 1795055678865
     },
@@ -195,6 +175,18 @@
     {
       "key": "ozbargain|https://www.ozbargain.com.au/node/985501|",
       "ts": 1795600886116
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/samsung-85-qn70h-neo-qled-4k-mini-led-smart-ai-tv-2026|$1945.00",
+      "ts": 1795632696337
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/985538|",
+      "ts": 1795632701358
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
+      "ts": 1795632706340
     }
   ]
 }
