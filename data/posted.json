@@ -1,22 +1,6 @@
 {
   "posted": [
     {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-ai-c6-4k-smart-tv-2026|$3591.00",
-      "ts": 1795055678865
-    },
-    {
-      "key": "ozbargain|https://www.ozbargain.com.au/node/984167|",
-      "ts": 1795055683978
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$567.00",
-      "ts": 1795055689060
-    },
-    {
-      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$269.00",
-      "ts": 1795055694129
-    },
-    {
       "key": "jbhifi|https://www.jbhifi.com.au/products/dji-osmo-action-6-adventure-combo|$839.00",
       "ts": 1795079104799
     },
@@ -187,6 +171,22 @@
     {
       "key": "jbhifi|https://www.jbhifi.com.au/products/google-tv-streamer-4k|$159.00",
       "ts": 1795632706340
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/lg-77-oled-evo-ai-c6-4k-smart-tv-2026|$3591.00",
+      "ts": 1795664088357
+    },
+    {
+      "key": "ozbargain|https://www.ozbargain.com.au/node/985641|",
+      "ts": 1795664093380
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/ninja-woodfire-electric-bbq-grill-smoker-with-smart-probe|$567.00",
+      "ts": 1795664098382
+    },
+    {
+      "key": "jbhifi|https://www.jbhifi.com.au/products/logitech-mx-creative-console-graphite|$269.00",
+      "ts": 1795664103564
     }
   ]
 }
